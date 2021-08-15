@@ -1,0 +1,3 @@
+cd C:\Users\kamisli_firdevs\Desktop\Bitirme Projesi\REA
+set FLASK_APP=app.py
+flask run
