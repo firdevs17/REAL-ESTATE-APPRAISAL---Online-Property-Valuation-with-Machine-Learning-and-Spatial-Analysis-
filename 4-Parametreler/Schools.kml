@@ -1,0 +1,878 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Schools.kml</name>
+	<Style id="sh_ranger_station">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/S.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/S-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_S">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_S</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_S</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_S">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/S.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/S-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_ranger_station">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ranger_station</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ranger_station</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ranger_station">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/S.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/S-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_S">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/S.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/S-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Folder>
+		<name>Schools</name>
+		<open>1</open>
+		<Placemark>
+			<name>Mehmet Memişoğulları İlkokulu</name>
+			<description>Ege, 788. Cd No:27, 06270 Mamak/Ankara</description>
+			<Camera>
+				<longitude>32.93308796751985</longitude>
+				<latitude>39.88837774328981</latitude>
+				<altitude>13432.76551045626</altitude>
+				<heading>-7.83151518044115</heading>
+				<tilt>13.91775821207153</tilt>
+				<roll>0.687093962242239</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_ranger_station</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.91831285674047,39.89920277777778,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Kınık İlkokulu</name>
+			<description>Cengizhan, 827. Sk. No:4, 06480 Mamak/Ankara</description>
+			<Camera>
+				<longitude>32.93308796751985</longitude>
+				<latitude>39.88837774328981</latitude>
+				<altitude>13432.76551045626</altitude>
+				<heading>-7.83151518044115</heading>
+				<tilt>13.91775821207153</tilt>
+				<roll>0.687093962242239</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_ranger_station</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.92368915360927,39.89940986667666,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ali Kuşçu ilkokulu</name>
+			<description>General Zeki Doğan, Mahallesi, 551. Cd. No:5, 06630 Mamak/Ankara</description>
+			<Camera>
+				<longitude>32.93308796751985</longitude>
+				<latitude>39.88837774328981</latitude>
+				<altitude>13432.76551045626</altitude>
+				<heading>-7.83151518044115</heading>
+				<tilt>13.91775821207153</tilt>
+				<roll>0.687093962242239</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_ranger_station</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.91153140886968,39.91073022534626,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Yedi Renk Anaokulu</name>
+			<description>General Zeki Doğan, 542. Sk., 06630 Mamak/Ankara</description>
+			<Camera>
+				<longitude>32.93308796751985</longitude>
+				<latitude>39.88837774328981</latitude>
+				<altitude>13432.76551045626</altitude>
+				<heading>-7.83151518044115</heading>
+				<tilt>13.91775821207153</tilt>
+				<roll>0.687093962242239</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_ranger_station</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.90855285858827,39.91204710498677,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Selçuklu İlköğretim Okulu</name>
+			<description>Mutlu, 717. Sk. No:87, 06630 Mamak/Ankara</description>
+			<Camera>
+				<longitude>32.93308796751985</longitude>
+				<latitude>39.88837774328981</latitude>
+				<altitude>13432.76551045626</altitude>
+				<heading>-7.83151518044115</heading>
+				<tilt>13.91775821207153</tilt>
+				<roll>0.687093962242239</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_ranger_station</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.90484957633986,39.90762533224739,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>METEHAN İLKOKULU</name>
+			<description>Ege, 763. Cd. No.117, 06630 Mamak/Ankara</description>
+			<Camera>
+				<longitude>32.93308796751985</longitude>
+				<latitude>39.88837774328981</latitude>
+				<altitude>13432.76551045626</altitude>
+				<heading>-7.83151518044115</heading>
+				<tilt>13.91775821207153</tilt>
+				<roll>0.687093962242239</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_ranger_station</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.90971641810557,39.89827222222223,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ortatepe İmam Hatip Ortaokulu</name>
+			<description>Saimekadın, Ortatepe Sk. No:1, 06620 Mamak/Ankara</description>
+			<Camera>
+				<longitude>32.93308796751985</longitude>
+				<latitude>39.88837774328981</latitude>
+				<altitude>13432.76551045626</altitude>
+				<heading>-7.83151518044115</heading>
+				<tilt>13.91775821207153</tilt>
+				<roll>0.687093962242239</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_ranger_station</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.89517906654098,39.93108886130499,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>İngiliz Kültür Kreş ve Gündüz Bakimevi</name>
+			<description>Cengizhan, Sultan Fatih Cd., 06480 Mamak/Ankara</description>
+			<Camera>
+				<longitude>32.93308796751985</longitude>
+				<latitude>39.88837774328981</latitude>
+				<altitude>13432.76551045626</altitude>
+				<heading>-7.83151518044115</heading>
+				<tilt>13.91775821207153</tilt>
+				<roll>0.687093962242239</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_ranger_station</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.92361332245265,39.89611666666666,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ali Şir Nevai Ortaokulu</name>
+			<description>Durali Alıç, Şehitler Cd. No:85, 06480 Mamak/Ankara</description>
+			<Camera>
+				<longitude>32.93308796751985</longitude>
+				<latitude>39.88837774328981</latitude>
+				<altitude>13432.76551045626</altitude>
+				<heading>-7.83151518044115</heading>
+				<tilt>13.91775821207153</tilt>
+				<roll>0.687093962242239</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_ranger_station</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.92822488557582,39.89826944444444,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ergenekon İlkokulu</name>
+			<description>Durali Alıç, Durali Alıç Mh, Pk:06480, 953. Sk. No:17, 06480 Mamak</description>
+			<Camera>
+				<longitude>32.93308796751985</longitude>
+				<latitude>39.88837774328981</latitude>
+				<altitude>13432.76551045626</altitude>
+				<heading>-7.83151518044115</heading>
+				<tilt>13.91775821207153</tilt>
+				<roll>0.687093962242239</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_ranger_station</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.93179333344695,39.89932777777778,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Mektebim Koleji Mamak Kampusu</name>
+			<description>Durali Alıç, 06480 Mamak/Ankara</description>
+			<Camera>
+				<longitude>32.93308796751985</longitude>
+				<latitude>39.88837774328981</latitude>
+				<altitude>13432.76551045626</altitude>
+				<heading>-7.83151518044115</heading>
+				<tilt>13.91775821207153</tilt>
+				<roll>0.687093962242239</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_ranger_station</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.9328190585878,39.89625,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Demokrasi Ortaokulu</name>
+			<description>Cengizhan, 866. Sk. No: 5, 06480 Mamak/Ankara</description>
+			<Camera>
+				<longitude>32.93308796751985</longitude>
+				<latitude>39.88837774328981</latitude>
+				<altitude>13432.76551045626</altitude>
+				<heading>-7.83151518044115</heading>
+				<tilt>13.91775821207153</tilt>
+				<roll>0.687093962242239</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_ranger_station</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.9195880395522,39.90401636157557,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ege İlkokulu</name>
+			<description>Fahri Korutürk, A Blok, Durali Alıç Mh Şehitler Cd. No:35 Pk:06480, Mh. 905. Sk No:1 D:B Blok, 06480 Mamak/Ankara</description>
+			<Camera>
+				<longitude>32.93308796751985</longitude>
+				<latitude>39.88837774328981</latitude>
+				<altitude>13432.76551045626</altitude>
+				<heading>-7.83151518044115</heading>
+				<tilt>13.91775821207153</tilt>
+				<roll>0.687093962242239</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_ranger_station</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.92834435304628,39.90959166666666,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ege anadolu lisesi</name>
+			<description>Fahri Korutürk, 686. Sk. NO:3, 06480 Mamak/Ankara</description>
+			<Camera>
+				<longitude>32.93308796751985</longitude>
+				<latitude>39.88837774328981</latitude>
+				<altitude>13432.76551045626</altitude>
+				<heading>-7.83151518044115</heading>
+				<tilt>13.91775821207153</tilt>
+				<roll>0.687093962242239</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_ranger_station</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.91951023588702,39.91136111111111,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Naşide Halil Gelendost İlkokulu</name>
+			<description>Şirintepe, 1031. Cd. No:110/AB, 06480 Mamak/Ankara</description>
+			<Camera>
+				<longitude>32.93308796751985</longitude>
+				<latitude>39.88837774328981</latitude>
+				<altitude>13432.76551045626</altitude>
+				<heading>-7.83151518044115</heading>
+				<tilt>13.91775821207153</tilt>
+				<roll>0.687093962242239</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_ranger_station</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.92404418742348,39.91471944444444,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Türkoğlu İlkokulu</name>
+			<description>Şirintepe Mh. Hocalı Cad.No:72 Pk:06470, 06470 Mamak</description>
+			<Camera>
+				<longitude>32.93308796751985</longitude>
+				<latitude>39.88837774328981</latitude>
+				<altitude>13432.76551045626</altitude>
+				<heading>-7.83151518044115</heading>
+				<tilt>13.91775821207153</tilt>
+				<roll>0.687093962242239</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_ranger_station</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.91993210091784,39.92032222222222,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Süleyman Nazif İlkokulu</name>
+			<description>Tuzluçayır, 603. no, 592. Sk., 06470 Mamak/Ankara</description>
+			<Camera>
+				<longitude>32.93308796751985</longitude>
+				<latitude>39.88837774328981</latitude>
+				<altitude>13432.76551045626</altitude>
+				<heading>-7.83151518044115</heading>
+				<tilt>13.91775821207153</tilt>
+				<roll>0.687093962242239</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_ranger_station</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.90981331384849,39.92130327359523,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Tuzluçayır İöo</name>
+			<description>Çağlayan, 299. Sk. No:1, 06470 Mamak/Ankara</description>
+			<Camera>
+				<longitude>32.93308796751985</longitude>
+				<latitude>39.88837774328981</latitude>
+				<altitude>13432.76551045626</altitude>
+				<heading>-7.83151518044115</heading>
+				<tilt>13.91775821207153</tilt>
+				<roll>0.687093962242239</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_ranger_station</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.90716405545723,39.92530555555555,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Tuzluçayır Anadolu Lisesi</name>
+			<description>Aşık Veysel, Tıp Fakültesi Cad. No:152, 06620 Mamak/Ankara</description>
+			<Camera>
+				<longitude>32.93308796751985</longitude>
+				<latitude>39.88837774328981</latitude>
+				<altitude>13432.76551045626</altitude>
+				<heading>-7.83151518044115</heading>
+				<tilt>13.91775821207153</tilt>
+				<roll>0.687093962242239</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_ranger_station</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.90277869168169,39.92486111111111,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Sibel İsmet Çatık Ortaokulu</name>
+			<description>Tuzluçayır, Süleyman Ayten Cd. No:13, 06620 Mamak/Ankara</description>
+			<Camera>
+				<longitude>32.93308796751985</longitude>
+				<latitude>39.88837774328981</latitude>
+				<altitude>13432.76551045626</altitude>
+				<heading>-7.83151518044115</heading>
+				<tilt>13.91775821207153</tilt>
+				<roll>0.687093962242239</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_ranger_station</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.90582302605875,39.92769402277224,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Abidinpaşa Anadolu Lisesi</name>
+			<description>Saimekadın, Cami Sk. No:48/2, 06620 Mamak/Ankara</description>
+			<Camera>
+				<longitude>32.93308796751985</longitude>
+				<latitude>39.88837774328981</latitude>
+				<altitude>13432.76551045626</altitude>
+				<heading>-7.83151518044115</heading>
+				<tilt>13.91775821207153</tilt>
+				<roll>0.687093962242239</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_ranger_station</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.89446547818768,39.92751666666666,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Suzan Mehmet Gönç Mesleki ve Teknik Anadolu Lisesi</name>
+			<description>39.929553728987585, 32.89978262605879</description>
+			<Camera>
+				<longitude>32.93308796751985</longitude>
+				<latitude>39.88837774328981</latitude>
+				<altitude>13432.76551045626</altitude>
+				<heading>-7.83151518044115</heading>
+				<tilt>13.91775821207153</tilt>
+				<roll>0.687093962242239</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_ranger_station</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.89978262605879,39.92955277777777,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Başkent Anadolu Lisesi</name>
+			<description>Balkiraz Mh, Tıp Fakültesi, Saraycık Sk. No:4, 06620 Mamak/Ankara</description>
+			<Camera>
+				<longitude>32.93308796751985</longitude>
+				<latitude>39.88837774328981</latitude>
+				<altitude>13432.76551045626</altitude>
+				<heading>-7.83151518044115</heading>
+				<tilt>13.91775821207153</tilt>
+				<roll>0.687093962242239</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_ranger_station</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.88808666284645,39.93126111111111,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ertuğrulgazi İlköğretim Okulu</name>
+			<description>Cebeci, Şht. Hasan Karaca Sk. No:17, 06590 Çankaya/Ankara</description>
+			<Camera>
+				<longitude>32.93308796751985</longitude>
+				<latitude>39.88837774328981</latitude>
+				<altitude>13432.76551045626</altitude>
+				<heading>-7.83151518044115</heading>
+				<tilt>13.91775821207153</tilt>
+				<roll>0.687093962242239</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_ranger_station</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.88217225135087,39.92919619770363,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ahmet Hızal İlköğretim Okulu</name>
+			<description>Abidinpaşa, Kırkağaç Sk. No:18, 06620 Mamak/Ankara</description>
+			<Camera>
+				<longitude>32.93308796751985</longitude>
+				<latitude>39.88837774328981</latitude>
+				<altitude>13432.76551045626</altitude>
+				<heading>-7.83151518044115</heading>
+				<tilt>13.91775821207153</tilt>
+				<roll>0.687093962242239</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_ranger_station</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.8867781702367,39.92525555555555,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MAMAK ŞEHİT MEKAN ŞAHİN İMAM HATİP ORTAOKULU</name>
+			<description>Abidinpaşa Mah, Karaşar Cad No:31, 06620 Mamak/Ankara</description>
+			<Camera>
+				<longitude>32.93308796751985</longitude>
+				<latitude>39.88837774328981</latitude>
+				<altitude>13432.76551045626</altitude>
+				<heading>-7.83151518044115</heading>
+				<tilt>13.91775821207153</tilt>
+				<roll>0.687093962242239</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_ranger_station</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.88961311071739,39.92345,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Oğuz Kaan İlkokulu</name>
+			<description>Akdere, Şht. Ayhan Babadağ Cd. No:8, 06630 Mamak/Ankara</description>
+			<Camera>
+				<longitude>32.93308796751985</longitude>
+				<latitude>39.88837774328981</latitude>
+				<altitude>13432.76551045626</altitude>
+				<heading>-7.83151518044115</heading>
+				<tilt>13.91775821207153</tilt>
+				<roll>0.687093962242239</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_ranger_station</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.88647437208247,39.91993055555555,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Prof. Dr. Rağıp Üner Mesleki ve Teknik Anadolu Lisesi</name>
+			<description>Akdere, 393. Sk. 30. Sk D:7, 06101 Mamak/Ankara</description>
+			<Camera>
+				<longitude>32.93308796751985</longitude>
+				<latitude>39.88837774328981</latitude>
+				<altitude>13432.76551045626</altitude>
+				<heading>-7.83151518044115</heading>
+				<tilt>13.91775821207153</tilt>
+				<roll>0.687093962242239</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_ranger_station</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.88753528742365,39.91933133600709,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>75. Yıl İlkokulu</name>
+			<description>Peyami Sefa, 344. Cd. No:61, 06630 Mamak/Ankara</description>
+			<Camera>
+				<longitude>32.93308796751985</longitude>
+				<latitude>39.88837774328981</latitude>
+				<altitude>13432.76551045626</altitude>
+				<heading>-7.83151518044115</heading>
+				<tilt>13.91775821207153</tilt>
+				<roll>0.687093962242239</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_ranger_station</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.89773771071719,39.91953333333333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Kazım Orbay İlkokulu</name>
+			<description>Kazım Orbay, 341. Sk. No:4, 06630 Mamak/Ankara</description>
+			<Camera>
+				<longitude>32.93308796751985</longitude>
+				<latitude>39.88837774328981</latitude>
+				<altitude>13432.76551045626</altitude>
+				<heading>-7.83151518044115</heading>
+				<tilt>13.91775821207153</tilt>
+				<roll>0.687093962242239</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_ranger_station</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.89556921071712,39.91719988222442,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Çağrıbey Anadolu Lisesi</name>
+			<description>Kazım Orbay, 342. Cd. No:46, 06630 Mamak/Ankara</description>
+			<Camera>
+				<longitude>32.93308796751985</longitude>
+				<latitude>39.88837774328981</latitude>
+				<altitude>13432.76551045626</altitude>
+				<heading>-7.83151518044115</heading>
+				<tilt>13.91775821207153</tilt>
+				<roll>0.687093962242239</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_ranger_station</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.89541504694151,39.91661944444444,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Manolya Anaokulu</name>
+			<description>Kazım Orbay, 342. Cd. No:48, 06630 Mamak/Ankara</description>
+			<Camera>
+				<longitude>32.93308796751985</longitude>
+				<latitude>39.88837774328981</latitude>
+				<altitude>13432.76551045626</altitude>
+				<heading>-7.83151518044115</heading>
+				<tilt>13.91775821207153</tilt>
+				<roll>0.687093962242239</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_ranger_station</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.89423041071716,39.91742222222222,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Rotary Yeşiltepe Ortaokulu</name>
+			<description>Akdere, Mehmet Ali Altın Cd No:1, 06630 Mamak/Ankara</description>
+			<Camera>
+				<longitude>32.93308796751985</longitude>
+				<latitude>39.88837774328981</latitude>
+				<altitude>13432.76551045626</altitude>
+				<heading>-7.83151518044115</heading>
+				<tilt>13.91775821207153</tilt>
+				<roll>0.687093962242239</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_ranger_station</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.89281545674109,39.91625278036021,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Şehit Hasan Altın Orta Okulu</name>
+			<description>General Zeki Doğan, 494. Sk. No:16, 06630 Mamak/Ankara</description>
+			<Camera>
+				<longitude>32.93308796751985</longitude>
+				<latitude>39.88837774328981</latitude>
+				<altitude>13432.76551045626</altitude>
+				<heading>-7.83151518044115</heading>
+				<tilt>13.91775821207153</tilt>
+				<roll>0.687093962242239</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_ranger_station</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.90378976043547,39.91618629981085,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Kuva-yi Milliye Ortaokulu</name>
+			<description>General Zeki Doğan Mah., İmam Alim Sultan Cd. No:35, 06630 Mamak/Ankara</description>
+			<Camera>
+				<longitude>32.93308796751985</longitude>
+				<latitude>39.88837774328981</latitude>
+				<altitude>13432.76551045626</altitude>
+				<heading>-7.83151518044115</heading>
+				<tilt>13.91775821207153</tilt>
+				<roll>0.687093962242239</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_ranger_station</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.91158172605815,39.90930415820596,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hurin Yavuzalp İlkokulu</name>
+			<description>General Zeki Doğan, 512. Sk. No:10, 06630, 06630 Mamak/Ankara</description>
+			<Camera>
+				<longitude>32.93308796751985</longitude>
+				<latitude>39.88837774328981</latitude>
+				<altitude>13432.76551045626</altitude>
+				<heading>-7.83151518044115</heading>
+				<tilt>13.91775821207153</tilt>
+				<roll>0.687093962242239</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_ranger_station</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.90751465304652,39.91789166666666,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Özel Yeni Yaşam Anaokulu</name>
+			<description>General Zeki Doğan, General Zeki Doğan Park İçi Yolu, 06630 Mamak/Ankara</description>
+			<Camera>
+				<longitude>32.93308796751985</longitude>
+				<latitude>39.88837774328981</latitude>
+				<altitude>13432.76551045626</altitude>
+				<heading>-7.83151518044115</heading>
+				<tilt>13.91775821207153</tilt>
+				<roll>0.687093962242239</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_ranger_station</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.90494683955247,39.917275,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Abidinpaşa İlkokulu</name>
+			<description>Abidinpaşa, Okul Sokağı No:8, 06620 Mamak/Ankara</description>
+			<Camera>
+				<longitude>32.93308796751985</longitude>
+				<latitude>39.88837774328981</latitude>
+				<altitude>13432.76551045626</altitude>
+				<heading>-7.83151518044115</heading>
+				<tilt>13.91775821207153</tilt>
+				<roll>0.687093962242239</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_ranger_station</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.88855950702296,39.92865103077799,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Habibe-Mehmet Kaya Anaokulu</name>
+			<description>Fahri Korutürk, Natoyolu Caddesı No:261, 06480 Mamak/Ankara</description>
+			<LookAt>
+				<longitude>32.91554781631943</longitude>
+				<latitude>39.91523169499074</latitude>
+				<altitude>0</altitude>
+				<heading>-24.0698938941438</heading>
+				<tilt>0</tilt>
+				<range>1255.536149852179</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_S</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.91861932738463,39.90995187942757,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ayşe Zeki Sayan İlkokulu</name>
+			<description>Abidinpaşa, Cami Sk. No:48, 06620 Mamak/Ankara</description>
+			<LookAt>
+				<longitude>32.89545544902113</longitude>
+				<latitude>39.92706330903024</latitude>
+				<altitude>0</altitude>
+				<heading>26.2304513011907</heading>
+				<tilt>15.90372781525598</tilt>
+				<range>543.1868828567607</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_S</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.89482731390216,39.9276362086835,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>29 Ekim Okulu</name>
+			<description>Balkiraz, No:, Tıp Fakültesi Cd. No:77, 06620 Mamak/Ankara</description>
+			<LookAt>
+				<longitude>32.88998142582569</longitude>
+				<latitude>39.92947623182981</latitude>
+				<altitude>0</altitude>
+				<heading>26.2269620606095</heading>
+				<tilt>17.20032796973521</tilt>
+				<range>595.1498359177771</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_S</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.88747095087137,39.93032034671278,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Abidinpaşa Teknik Ve Endüstri Meslek Lisesi</name>
+			<description>Aşık Veysel Mh, Tıp Fakültesi Cd. No, 06630 Mamak/Ankara</description>
+			<LookAt>
+				<longitude>32.89141661388508</longitude>
+				<latitude>39.92825657399771</latitude>
+				<altitude>0</altitude>
+				<heading>26.22788360632943</heading>
+				<tilt>17.20109362881049</tilt>
+				<range>883.3728821781687</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_S</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.89173333333333,39.92769587825281,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Mehmet Çekiç Ortaokulu</name>
+			<description>Aşık Veysel, Tıp Fakültesi Cd. No: 152/B, 06620 Mamak/Ankara</description>
+			<LookAt>
+				<longitude>32.90318968068215</longitude>
+				<latitude>39.92262399813568</latitude>
+				<altitude>0</altitude>
+				<heading>26.2354393532034</heading>
+				<tilt>17.20094748713069</tilt>
+				<range>828.351535611259</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_S</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.90286062932139,39.92431730367242,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Açıkalın İlkokulu</name>
+			<description>Fahri Korutürk, 686. Sk. No:9, 06480 Mamak/Ankara</description>
+			<LookAt>
+				<longitude>32.9185066008102</longitude>
+				<latitude>39.91070385798738</latitude>
+				<altitude>0</altitude>
+				<heading>0.02813721602596732</heading>
+				<tilt>25.65972929875209</tilt>
+				<range>308.222729663119</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_S</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.91865,39.91070479513503,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

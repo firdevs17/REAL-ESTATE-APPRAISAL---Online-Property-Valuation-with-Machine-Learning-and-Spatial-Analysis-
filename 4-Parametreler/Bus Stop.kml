@@ -1,0 +1,688 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Bus Stop.kml</name>
+	<Style id="sh_bus0">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_bus0">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_bus0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_bus</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_bus0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_bus">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_bus">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_bus0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_bus</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_bus">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>Bus Stop</name>
+		<open>1</open>
+		<Placemark>
+			<name>Sağlık Ocağı
+Durağı</name>
+			<description>General Zeki Doğan, 06630 Mamak/Ankara</description>
+			<LookAt>
+				<longitude>32.911995624204</longitude>
+				<latitude>39.91973632408988</latitude>
+				<altitude>0</altitude>
+				<heading>0.004174497983263943</heading>
+				<tilt>45.0111329427697</tilt>
+				<range>7726.790108854706</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_bus</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.90458098173862,39.92218015745204,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Akşemseddin Camii
+Durağı</name>
+			<description>General Zeki Doğan, 06630 Mamak/Ankara</description>
+			<LookAt>
+				<longitude>32.911995624204</longitude>
+				<latitude>39.91973632408988</latitude>
+				<altitude>0</altitude>
+				<heading>0.004174497983263943</heading>
+				<tilt>45.0111329427697</tilt>
+				<range>7726.790108854706</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_bus0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.90657146787277,39.91989429525498,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hacı Bektaş-i Veli Parkı
+Durağı</name>
+			<description>General Zeki Doğan, 06630 Mamak/Ankara</description>
+			<LookAt>
+				<longitude>32.911995624204</longitude>
+				<latitude>39.91973632408988</latitude>
+				<altitude>0</altitude>
+				<heading>0.004174497983263943</heading>
+				<tilt>45.0111329427697</tilt>
+				<range>7726.790108854706</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_bus</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.91125864410391,39.91702190490209,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Tek Mezar
+Durağı</name>
+			<description>General Zeki Doğan, 06630 Mamak/Ankara</description>
+			<LookAt>
+				<longitude>32.911995624204</longitude>
+				<latitude>39.91973632408988</latitude>
+				<altitude>0</altitude>
+				<heading>0.004174497983263943</heading>
+				<tilt>45.0111329427697</tilt>
+				<range>7726.790108854706</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_bus</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.91265,39.91451147957494,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Şahintepe Ptt
+Durağı</name>
+			<description>General Zeki Doğan, 06630 Mamak/Ankara</description>
+			<LookAt>
+				<longitude>32.911995624204</longitude>
+				<latitude>39.91973632408988</latitude>
+				<altitude>0</altitude>
+				<heading>0.004174497983263943</heading>
+				<tilt>45.0111329427697</tilt>
+				<range>7726.790108854706</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_bus</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.91452013836922,39.91223059214732,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Açıkalın
+Durağı</name>
+			<description>General Zeki Doğan, 06630 Mamak/Ankara</description>
+			<LookAt>
+				<longitude>32.92802616332956</longitude>
+				<latitude>39.91495331554172</latitude>
+				<altitude>0</altitude>
+				<heading>0.01451934536918888</heading>
+				<tilt>43.33668391499702</tilt>
+				<range>6175.431024847182</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_bus</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.91793055555555,39.90982103731227,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Natoyolu Tepe
+Durağı</name>
+			<description>Ege, 06270 Mamak/Ankara</description>
+			<LookAt>
+				<longitude>32.91521579987971</longitude>
+				<latitude>39.91153732203126</latitude>
+				<altitude>0</altitude>
+				<heading>-27.75168343416673</heading>
+				<tilt>54.12009657852786</tilt>
+				<range>5695.792718519992</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_bus</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.91816961783653,39.90239187805395,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Yavuz Selim Polis Karakolu
+Durağı</name>
+			<description>Ege, 06270 Mamak/Ankara</description>
+			<LookAt>
+				<longitude>32.91521579987971</longitude>
+				<latitude>39.91153732203126</latitude>
+				<altitude>0</altitude>
+				<heading>-27.75168343416673</heading>
+				<tilt>54.12009657852786</tilt>
+				<range>5695.792718519992</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_bus</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.91968971297662,39.89958092931541,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cengizhan Mahallesi
+Durağı</name>
+			<description>Ege, 06270 Mamak/Ankara</description>
+			<LookAt>
+				<longitude>32.91521579987971</longitude>
+				<latitude>39.91153732203126</latitude>
+				<altitude>0</altitude>
+				<heading>-27.75168343416673</heading>
+				<tilt>54.12009657852786</tilt>
+				<range>5695.792718519992</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_bus</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.92080555555555,39.89718169497194,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Mamak İlçe Emniyet Müdürlüğü
+Durağı</name>
+			<description>Saimekadın, 06620 Mamak/Ankara</description>
+			<LookAt>
+				<longitude>32.91850179943613</longitude>
+				<latitude>39.91000759461016</latitude>
+				<altitude>0</altitude>
+				<heading>-27.74957548972884</heading>
+				<tilt>54.11996270986134</tilt>
+				<range>5677.396177533013</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_bus</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.89532935055092,39.92670006050602,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Abidinpaşa Meslek Lisesi
+Durağı</name>
+			<description>Saimekadın, 06620 Mamak/Ankara</description>
+			<LookAt>
+				<longitude>32.91850179943613</longitude>
+				<latitude>39.91000759461016</latitude>
+				<altitude>0</altitude>
+				<heading>-27.74957548972884</heading>
+				<tilt>54.11996270986134</tilt>
+				<range>5677.396177533013</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_bus</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.89206066305915,39.92802026504727,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Abidinpaşa Merkez Cami
+Durağı</name>
+			<description>Balkiraz, 06620 Mamak/Ankara</description>
+			<LookAt>
+				<longitude>32.91850179943613</longitude>
+				<latitude>39.91000759461016</latitude>
+				<altitude>0</altitude>
+				<heading>-27.74957548972884</heading>
+				<tilt>54.11996270986134</tilt>
+				<range>5677.396177533013</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_bus</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.88948622454008,39.92935266005183,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Abidin Paşa
+Durağı</name>
+			<description>Balkiraz, 06620 Mamak/Ankara</description>
+			<LookAt>
+				<longitude>32.91850179943613</longitude>
+				<latitude>39.91000759461016</latitude>
+				<altitude>0</altitude>
+				<heading>-27.74957548972884</heading>
+				<tilt>54.11996270986134</tilt>
+				<range>5677.396177533013</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_bus</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.88659966711905,39.93051026143304,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Abidin Paşa
+Durağı</name>
+			<description>Abidinpaşa, 06620 Mamak/Ankara</description>
+			<LookAt>
+				<longitude>32.91850179943613</longitude>
+				<latitude>39.91000759461016</latitude>
+				<altitude>0</altitude>
+				<heading>-27.74957548972884</heading>
+				<tilt>54.11996270986134</tilt>
+				<range>5677.396177533013</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_bus</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.88645999349601,39.93038090586878,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Abidinpaşa Merkez Cami
+Durağı</name>
+			<description>Abidinpaşa, 06620 Mamak/Ankara</description>
+			<LookAt>
+				<longitude>32.91850179943613</longitude>
+				<latitude>39.91000759461016</latitude>
+				<altitude>0</altitude>
+				<heading>-27.74957548972884</heading>
+				<tilt>54.11996270986134</tilt>
+				<range>5677.396177533013</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_bus</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.88936944444444,39.92912996051576,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Abidinpaşa Mesleki Ve Teknik Anadolu Lisesi
+Durağı</name>
+			<description>Aşık Veysel, 06620 Mamak/Ankara</description>
+			<LookAt>
+				<longitude>32.91850179943613</longitude>
+				<latitude>39.91000759461016</latitude>
+				<altitude>0</altitude>
+				<heading>-27.74957548972884</heading>
+				<tilt>54.11996270986134</tilt>
+				<range>5677.396177533013</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_bus</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.89184722222222,39.9278599864048,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Mamak İlçe Emniyet Müdürlüğü
+Durağı</name>
+			<description>Aşık Veysel, 06620 Mamak/Ankara</description>
+			<LookAt>
+				<longitude>32.91850179943613</longitude>
+				<latitude>39.91000759461016</latitude>
+				<altitude>0</altitude>
+				<heading>-27.74957548972884</heading>
+				<tilt>54.11996270986134</tilt>
+				<range>5677.396177533013</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_bus</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.89518912447861,39.92649899794659,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Aşık Veysel Parkı
+Durağı</name>
+			<description>Aşık Veysel, 06620 Mamak/Ankara</description>
+			<LookAt>
+				<longitude>32.91850179943613</longitude>
+				<latitude>39.91000759461016</latitude>
+				<altitude>0</altitude>
+				<heading>-27.74957548972884</heading>
+				<tilt>54.11996270986134</tilt>
+				<range>5677.396177533013</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_bus</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.89860833333334,39.92499014957929,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Tuzluçayır
+Durağı</name>
+			<description>Aşık Veysel, 06620 Mamak/Ankara</description>
+			<LookAt>
+				<longitude>32.91850179943613</longitude>
+				<latitude>39.91000759461016</latitude>
+				<altitude>0</altitude>
+				<heading>-27.74957548972884</heading>
+				<tilt>54.11996270986134</tilt>
+				<range>5677.396177533013</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_bus</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.90275,39.92501509824862,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Dereboyu Son Durak</name>
+			<description>Aşık Veysel, 06620 Mamak/Ankara</description>
+			<LookAt>
+				<longitude>32.91850179943613</longitude>
+				<latitude>39.91000759461016</latitude>
+				<altitude>0</altitude>
+				<heading>-27.74957548972884</heading>
+				<tilt>54.11996270986134</tilt>
+				<range>5677.396177533013</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_bus</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.90261944444444,39.92343939649166,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Dereboyu Cd. Son Durak</name>
+			<description>General Zeki Doğan, 06630 Mamak/Ankara</description>
+			<LookAt>
+				<longitude>32.91850179943613</longitude>
+				<latitude>39.91000759461016</latitude>
+				<altitude>0</altitude>
+				<heading>-27.74957548972884</heading>
+				<tilt>54.11996270986134</tilt>
+				<range>5677.396177533013</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_bus</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.90276901513942,39.9233993431148,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cengizhan Mahallesi
+Durağı</name>
+			<description>Cengizhan, 06480 Mamak/Ankara</description>
+			<LookAt>
+				<longitude>32.91850179943613</longitude>
+				<latitude>39.91000759461016</latitude>
+				<altitude>0</altitude>
+				<heading>-27.74957548972884</heading>
+				<tilt>54.11996270986134</tilt>
+				<range>5677.396177533013</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_bus</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.92120067763296,39.89730150021248,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cengizhan Mh.Natoyolu Cd. Durağı</name>
+			<description>Cengizhan, 06480 Mamak/Ankara</description>
+			<LookAt>
+				<longitude>32.91850179943613</longitude>
+				<latitude>39.91000759461016</latitude>
+				<altitude>0</altitude>
+				<heading>-27.74957548972884</heading>
+				<tilt>54.11996270986134</tilt>
+				<range>5677.396177533013</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_bus</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.91991944444444,39.89992152270277,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Natoyolu Tepe
+Durağı</name>
+			<description>Cengizhan, 06480 Mamak/Ankara</description>
+			<LookAt>
+				<longitude>32.91850179943613</longitude>
+				<latitude>39.91000759461016</latitude>
+				<altitude>0</altitude>
+				<heading>-27.74957548972884</heading>
+				<tilt>54.11996270986134</tilt>
+				<range>5677.396177533013</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_bus</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.91858055555555,39.90252946502293,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Nato Yolu Kömür
+Durağı</name>
+			<description>Fahri Korutürk, 06480 Mamak/Ankara</description>
+			<LookAt>
+				<longitude>32.91850179943613</longitude>
+				<latitude>39.91000759461016</latitude>
+				<altitude>0</altitude>
+				<heading>-27.74957548972884</heading>
+				<tilt>54.11996270986134</tilt>
+				<range>5677.396177533013</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_bus</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.91747517223062,39.90630794627116,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Açıkalın
+Durağı</name>
+			<description>Fahri Korutürk, 06480 Mamak/Ankara</description>
+			<LookAt>
+				<longitude>32.90555627128446</longitude>
+				<latitude>39.90767270625493</latitude>
+				<altitude>0</altitude>
+				<heading>-27.75891110507775</heading>
+				<tilt>50.22005517520434</tilt>
+				<range>3740.479043212425</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_bus</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.91842999793667,39.91014152247158,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Şahintepe Ptt
+Durağı</name>
+			<description>Şahintepe, 06470 Mamak/Ankara</description>
+			<LookAt>
+				<longitude>32.90555627128446</longitude>
+				<latitude>39.90767270625493</latitude>
+				<altitude>0</altitude>
+				<heading>-27.75891110507775</heading>
+				<tilt>50.22005517520434</tilt>
+				<range>3740.479043212425</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_bus</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.91478148378373,39.91244332464698,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Tek Mezar
+Durağı</name>
+			<description>Şahintepe, 06470 Mamak/Ankara</description>
+			<LookAt>
+				<longitude>32.90555627128446</longitude>
+				<latitude>39.90767270625493</latitude>
+				<altitude>0</altitude>
+				<heading>-27.75891110507775</heading>
+				<tilt>50.22005517520434</tilt>
+				<range>3740.479043212425</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_bus</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.91309014440381,39.91431952964941,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hacı Bektaş-i Veli Parkı</name>
+			<description>Şahintepe, 06470 Mamak/Ankara</description>
+			<LookAt>
+				<longitude>32.90555627128446</longitude>
+				<latitude>39.90767270625493</latitude>
+				<altitude>0</altitude>
+				<heading>-27.75891110507775</heading>
+				<tilt>50.22005517520434</tilt>
+				<range>3740.479043212425</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_bus</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.91168088186166,39.91705152231505,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Akşemsettin Camii
+Durağı</name>
+			<description>Tuzluçayır, 06620 Mamak/Ankara</description>
+			<LookAt>
+				<longitude>32.90555627128446</longitude>
+				<latitude>39.90767270625493</latitude>
+				<altitude>0</altitude>
+				<heading>-27.75891110507775</heading>
+				<tilt>50.22005517520434</tilt>
+				<range>3740.479043212425</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_bus</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.90746653904058,39.91981560797727,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Sağlık Ocağı
+Durağı</name>
+			<description>Tuzluçayır, 06620 Mamak/Ankara</description>
+			<LookAt>
+				<longitude>32.90555627128446</longitude>
+				<latitude>39.90767270625493</latitude>
+				<altitude>0</altitude>
+				<heading>-27.75891110507775</heading>
+				<tilt>50.22005517520434</tilt>
+				<range>3740.479043212425</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_bus</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.90477921820069,39.92252923507707,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Tuzluçayır
+Durağı</name>
+			<description>Kartaltepe, 06620 Mamak/Ankara</description>
+			<LookAt>
+				<longitude>32.89553406370342</longitude>
+				<latitude>39.90778079473416</latitude>
+				<altitude>0</altitude>
+				<heading>-27.76735976962383</heading>
+				<tilt>46.77838451748757</tilt>
+				<range>2541.236192404408</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_bus</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.90205959121375,39.92520103186162,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Tıp Fakültesi Cd. Durağı</name>
+			<description>Kartaltepe, 06620 Mamak/Ankara</description>
+			<LookAt>
+				<longitude>32.89553406370342</longitude>
+				<latitude>39.90778079473416</latitude>
+				<altitude>0</altitude>
+				<heading>-27.76735976962383</heading>
+				<tilt>46.77838451748757</tilt>
+				<range>2541.236192404408</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_bus</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.89726111111111,39.92573035477705,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

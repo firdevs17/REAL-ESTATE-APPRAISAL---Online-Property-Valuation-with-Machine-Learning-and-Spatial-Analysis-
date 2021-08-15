@@ -1,0 +1,3524 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<kml xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.opengis.net/kml/2.2">
+<Document id="kml_id_Area_1.1">
+<name>Area.kml</name>
+<Style id="sn_ylw-pushpin">
+<IconStyle>
+<scale>1.1</scale>
+<hotSpot x="20" y="2" yunits="pixels" xunits="pixels"/>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+</Icon>
+</IconStyle>
+<LineStyle>
+<color>ff000000</color>
+<width>10</width>
+</LineStyle>
+<PolyStyle>
+<color>4d00ffff</color>
+</PolyStyle>
+</Style>
+<Style id="sh_ylw-pushpin">
+<IconStyle>
+<scale>1.3</scale>
+<hotSpot x="20" y="2" yunits="pixels" xunits="pixels"/>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+</Icon>
+</IconStyle>
+<LineStyle>
+<color>ff000000</color>
+<width>10</width>
+</LineStyle>
+<PolyStyle>
+<color>4d00ffff</color>
+</PolyStyle>
+</Style>
+<StyleMap id="msn_ylw-pushpin">
+<Pair>
+<key>normal</key>
+<styleUrl>#sn_ylw-pushpin</styleUrl>
+</Pair>
+<Pair>
+<key>highlight</key>
+<styleUrl>#sh_ylw-pushpin</styleUrl>
+</Pair>
+</StyleMap>
+<StyleMap id="msn_S10">
+<Pair>
+<key>normal</key>
+<styleUrl>#sn_S2</styleUrl>
+</Pair>
+<Pair>
+<key>highlight</key>
+<styleUrl>#sh_S000</styleUrl>
+</Pair>
+</StyleMap>
+<Style id="sh_S000">
+<IconStyle>
+<scale>1.4</scale>
+<hotSpot x="0.5" y="0" yunits="fraction" xunits="fraction"/>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/grocery.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id="sn_S2">
+<IconStyle>
+<scale>1.2</scale>
+<hotSpot x="0.5" y="0" yunits="fraction" xunits="fraction"/>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/grocery.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<StyleMap id="msn_parks">
+<Pair>
+<key>normal</key>
+<styleUrl>#sn_parks</styleUrl>
+</Pair>
+<Pair>
+<key>highlight</key>
+<styleUrl>#sh_parks</styleUrl>
+</Pair>
+</StyleMap>
+<Style id="sh_parks">
+<IconStyle>
+<scale>1.4</scale>
+<hotSpot x="0.5" y="0" yunits="fraction" xunits="fraction"/>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id="sn_parks">
+<IconStyle>
+<scale>1.2</scale>
+<hotSpot x="0.5" y="0" yunits="fraction" xunits="fraction"/>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id="sh_bus">
+<IconStyle>
+<scale>1.4</scale>
+<hotSpot x="0.5" y="0" yunits="fraction" xunits="fraction"/>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id="sh_bus0">
+<IconStyle>
+<scale>1.4</scale>
+<hotSpot x="0.5" y="0" yunits="fraction" xunits="fraction"/>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id="sn_bus0">
+<IconStyle>
+<scale>1.2</scale>
+<hotSpot x="0.5" y="0" yunits="fraction" xunits="fraction"/>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<StyleMap id="msn_bus0">
+<Pair>
+<key>normal</key>
+<styleUrl>#sn_bus</styleUrl>
+</Pair>
+<Pair>
+<key>highlight</key>
+<styleUrl>#sh_bus0</styleUrl>
+</Pair>
+</StyleMap>
+<StyleMap id="msn_bus">
+<Pair>
+<key>normal</key>
+<styleUrl>#sn_bus0</styleUrl>
+</Pair>
+<Pair>
+<key>highlight</key>
+<styleUrl>#sh_bus</styleUrl>
+</Pair>
+</StyleMap>
+<Style id="sn_bus">
+<IconStyle>
+<scale>1.2</scale>
+<hotSpot x="0.5" y="0" yunits="fraction" xunits="fraction"/>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id="s_ylw-pushpin_hl">
+<IconStyle>
+<scale>1.4</scale>
+<hotSpot x="0.5" y="0" yunits="fraction" xunits="fraction"/>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/hospitals.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<StyleMap id="m_ylw-pushpin">
+<Pair>
+<key>normal</key>
+<styleUrl>#s_ylw-pushpin</styleUrl>
+</Pair>
+<Pair>
+<key>highlight</key>
+<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+</Pair>
+</StyleMap>
+<Style id="s_ylw-pushpin">
+<IconStyle>
+<scale>1.2</scale>
+<hotSpot x="0.5" y="0" yunits="fraction" xunits="fraction"/>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/hospitals.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<StyleMap id="m_ylw-pushpin0">
+<Pair>
+<key>normal</key>
+<styleUrl>#s_ylw-pushpin0</styleUrl>
+</Pair>
+<Pair>
+<key>highlight</key>
+<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
+</Pair>
+</StyleMap>
+<Style id="s_ylw-pushpin_hl0">
+<IconStyle>
+<scale>1.4</scale>
+<hotSpot x="0.5" y="0" yunits="fraction" xunits="fraction"/>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shopping.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id="s_ylw-pushpin0">
+<IconStyle>
+<scale>1.2</scale>
+<hotSpot x="0.5" y="0" yunits="fraction" xunits="fraction"/>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/shopping.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<StyleMap id="msn_bus1">
+<Pair>
+<key>normal</key>
+<styleUrl>#sn_bus1</styleUrl>
+</Pair>
+<Pair>
+<key>highlight</key>
+<styleUrl>#sh_bus1</styleUrl>
+</Pair>
+</StyleMap>
+<Style id="sn_bus1">
+<IconStyle>
+<scale>1.2</scale>
+<hotSpot x="0.5" y="0" yunits="fraction" xunits="fraction"/>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id="sh_bus1">
+<IconStyle>
+<scale>1.4</scale>
+<hotSpot x="0.5" y="0" yunits="fraction" xunits="fraction"/>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id="sn_ranger_station">
+<IconStyle>
+<scale>1.1</scale>
+<hotSpot x="32" y="1" yunits="pixels" xunits="pixels"/>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/paddle/S.png</href>
+</Icon>
+</IconStyle>
+<ListStyle>
+<ItemIcon>
+<state></state>
+<href>http://maps.google.com/mapfiles/kml/paddle/S-lv.png</href>
+</ItemIcon>
+</ListStyle>
+</Style>
+<StyleMap id="msn_S">
+<Pair>
+<key>normal</key>
+<styleUrl>#sn_S</styleUrl>
+</Pair>
+<Pair>
+<key>highlight</key>
+<styleUrl>#sh_S</styleUrl>
+</Pair>
+</StyleMap>
+<Style id="sh_S">
+<IconStyle>
+<scale>1.3</scale>
+<hotSpot x="32" y="1" yunits="pixels" xunits="pixels"/>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/paddle/S.png</href>
+</Icon>
+</IconStyle>
+<ListStyle>
+<ItemIcon>
+<state></state>
+<href>http://maps.google.com/mapfiles/kml/paddle/S-lv.png</href>
+</ItemIcon>
+</ListStyle>
+</Style>
+<Style id="sh_ranger_station">
+<IconStyle>
+<scale>1.3</scale>
+<hotSpot x="32" y="1" yunits="pixels" xunits="pixels"/>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/paddle/S.png</href>
+</Icon>
+</IconStyle>
+<ListStyle>
+<ItemIcon>
+<state></state>
+<href>http://maps.google.com/mapfiles/kml/paddle/S-lv.png</href>
+</ItemIcon>
+</ListStyle>
+</Style>
+<StyleMap id="msn_ranger_station">
+<Pair>
+<key>normal</key>
+<styleUrl>#sn_ranger_station</styleUrl>
+</Pair>
+<Pair>
+<key>highlight</key>
+<styleUrl>#sh_ranger_station</styleUrl>
+</Pair>
+</StyleMap>
+<Style id="sn_S">
+<IconStyle>
+<scale>1.1</scale>
+<hotSpot x="32" y="1" yunits="pixels" xunits="pixels"/>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/paddle/S.png</href>
+</Icon>
+</IconStyle>
+<ListStyle>
+<ItemIcon>
+<state></state>
+<href>http://maps.google.com/mapfiles/kml/paddle/S-lv.png</href>
+</ItemIcon>
+</ListStyle>
+</Style>
+<Folder id="kml_id_Area_1.1.5">
+<name>Area</name>
+<open>1</open>
+<Placemark id="kml_1">
+<name>Boundary</name>
+<open>1</open>
+<styleUrl>#msn_ylw-pushpin</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>32.9214201868032,39.8966869230604,0.0 32.9215684234421,39.89681108256,0.0 32.9216449066367,39.8968679380583,0.0 32.9219051414499,39.8973395000791,0.0 32.922231043935,39.8981796080109,0.0 32.9222589851543,39.898239931935,0.0 32.9224389387902,39.8985460922485,0.0 32.9231423690578,39.8992845644629,0.0 32.9234099028033,39.8995393327686,0.0 32.9237267596956,39.8998255009504,0.0 32.9230143336286,39.9001341605441,0.0 32.9229509000028,39.9000271823187,0.0 32.9228282626402,39.8999761412181,0.0 32.9224205735953,39.9001114940341,0.0 32.9224133094122,39.9003599498231,0.0 32.922282774626,39.9005691977725,0.0 32.9220761586718,39.9006431008477,0.0 32.9218997395126,39.9006802395367,0.0 32.9211165821884,39.9006266167951,0.0 32.920792499393,39.9007709614378,0.0 32.9211388842796,39.9012406238985,0.0 32.9215774641851,39.901724998938,0.0 32.9216104202192,39.9018948130935,0.0 32.9208408860651,39.9023763032719,0.0 32.9205214988558,39.9026301726582,0.0 32.9200906888252,39.902842823333,0.0 32.9202846788722,39.9032425937157,0.0 32.920283023586,39.903608547031,0.0 32.9202745024276,39.9036890481676,0.0 32.9202304959941,39.9040381888284,0.0 32.9190114106464,39.9036629915156,0.0 32.9183956045581,39.9044357211043,0.0 32.9180620732924,39.9047474883905,0.0 32.9180438078757,39.9049846334383,0.0 32.9180859715116,39.9054644831261,0.0 32.9178090613056,39.9055170231004,0.0 32.918848997386,39.9066370909464,0.0 32.918062467846,39.9069305685492,0.0 32.9184344554916,39.9075295476344,0.0 32.9186414742186,39.9078510347871,0.0 32.9187396993044,39.9079888050396,0.0 32.9189714392947,39.9082833185959,0.0 32.919067071342,39.9095922831269,0.0 32.9200379700585,39.9101189933025,0.0 32.9202062870005,39.9102679103198,0.0 32.9203754381633,39.9105994463475,0.0 32.9205116601349,39.9111469984921,0.0 32.9204281521045,39.9114025140412,0.0 32.9202000220832,39.9117265227121,0.0 32.9188044112019,39.9117181249808,0.0 32.9187607770924,39.9119700278555,0.0 32.9183807677959,39.9119574054701,0.0 32.9179008284864,39.9119619574898,0.0 32.91778891248,39.911953366977,0.0 32.9172572848279,39.9120361299115,0.0 32.9171873209564,39.9127573984689,0.0 32.9171336747864,39.9132384012488,0.0 32.9171283744009,39.9133214407056,0.0 32.9170858239414,39.9133828651563,0.0 32.916774257206,39.9140899065539,0.0 32.9155811574376,39.9140361694672,0.0 32.9155813193633,39.9140907402374,0.0 32.9146935934737,39.9144103596304,0.0 32.9144311117227,39.9154178338648,0.0 32.9140945385479,39.9161938002082,0.0 32.913799867488,39.9168848275878,0.0 32.9134894927474,39.9175889893923,0.0 32.9134059841276,39.9181805468986,0.0 32.9129031799588,39.91794905059,0.0 32.9122146948025,39.9188303933581,0.0 32.9115375034508,39.9192688379894,0.0 32.91086909855,39.9195659909798,0.0 32.9106697680683,39.9196072963513,0.0 32.9101221991255,39.9196067220766,0.0 32.9094801838466,39.9200012569119,0.0 32.9090604171106,39.9206151529719,0.0 32.9089701154022,39.9208779153691,0.0 32.9086336633224,39.9208501015065,0.0 32.9081772536684,39.9208909416046,0.0 32.9080971440079,39.9209179092366,0.0 32.9078408606609,39.9209789850758,0.0 32.9073049230874,39.9211921791347,0.0 32.9069603902216,39.9213485032262,0.0 32.9068279838207,39.9215692501969,0.0 32.9067522449165,39.9219203190493,0.0 32.9068477848257,39.9219680748129,0.0 32.9060537727942,39.9223030837103,0.0 32.9058800099504,39.9224269089888,0.0 32.904585111612,39.9239037249666,0.0 32.9035626530922,39.9245143704776,0.0 32.9036467127634,39.9246349862006,0.0 32.9038262735464,39.9250692246842,0.0 32.9038249380749,39.9251607478274,0.0 32.9037526444002,39.9252033560714,0.0 32.9036221075595,39.9252020647903,0.0 32.9035944195788,39.925184531345,0.0 32.9028589697,39.9251715427621,0.0 32.9029832452296,39.9259620562581,0.0 32.9016485759701,39.9259611969026,0.0 32.9010896141614,39.9259595232978,0.0 32.8990213436198,39.9259841445118,0.0 32.8985576500489,39.9259925430389,0.0 32.8981633945942,39.9260414318675,0.0 32.8971906160207,39.9262789758332,0.0 32.8963853374218,39.9265283597151,0.0 32.8966100699796,39.9270321432692,0.0 32.8966981171348,39.9274809582978,0.0 32.895892021812,39.9276166620734,0.0 32.8951621624172,39.9277458926812,0.0 32.8942286525578,39.9279316913937,0.0 32.8940327268694,39.9279784540445,0.0 32.8933912885563,39.9282049651518,0.0 32.8925575137694,39.928548244379,0.0 32.890668258644,39.9294724013341,0.0 32.8898986393655,39.9298483522114,0.0 32.889132263546,39.9302264773063,0.0 32.8894087033907,39.9305846089893,0.0 32.8879066402629,39.9315646459697,0.0 32.8873533353257,39.9319110526884,0.0 32.8877188707795,39.9325280972808,0.0 32.8865165646652,39.9325793949193,0.0 32.8862036932426,39.9319919408974,0.0 32.8859744127646,39.9318010813838,0.0 32.8856018748208,39.9314942865074,0.0 32.8854577741458,39.9313131921842,0.0 32.8854168802054,39.93118396496,0.0 32.8853664502567,39.9309957711738,0.0 32.885168873552,39.9308179574842,0.0 32.8848058051699,39.9304674114549,0.0 32.8854495197122,39.9300601971411,0.0 32.8849220867972,39.9294027977799,0.0 32.8856560391734,39.9290349357999,0.0 32.8868831531995,39.9284530306909,0.0 32.8869445015034,39.9284173427468,0.0 32.8875684110834,39.9283217222134,0.0 32.887683002025,39.9283153069916,0.0 32.8882871555221,39.9282631204348,0.0 32.8889418101919,39.92812518854,0.0 32.8891383899967,39.9280509370283,0.0 32.8900080404163,39.9277343695785,0.0 32.8899739336103,39.9270553532265,0.0 32.8900403042185,39.9266437233502,0.0 32.8907081505597,39.9265470905414,0.0 32.8919281657816,39.9261875606422,0.0 32.892233317592,39.9268877448115,0.0 32.8938675788586,39.9261814827207,0.0 32.894766127451,39.9257880548997,0.0 32.895703281615,39.9254229728623,0.0 32.8972001624772,39.9247861441431,0.0 32.8985730975736,39.9243330855947,0.0 32.8984110680071,39.9234199189262,0.0 32.8985724889865,39.9233644609053,0.0 32.899455435991,39.9233709077536,0.0 32.8999673959272,39.9233597483818,0.0 32.9006486016898,39.923390792067,0.0 32.9010180551878,39.9234255421286,0.0 32.9011109731971,39.9231596040791,0.0 32.9015847610082,39.9227046044817,0.0 32.9018553349241,39.9224578306193,0.0 32.9022662513729,39.9222761727997,0.0 32.9022045266433,39.9220064082101,0.0 32.9030277520953,39.9219126375192,0.0 32.9035453684595,39.9216927793766,0.0 32.9038629649056,39.9215734328307,0.0 32.9040575040716,39.9214159293944,0.0 32.9041228168851,39.9212453727567,0.0 32.9040478343326,39.9208171050711,0.0 32.9040365533124,39.9206927980191,0.0 32.9040504074106,39.9204162731005,0.0 32.9041379563052,39.9202597999892,0.0 32.9046523110688,39.9193469228494,0.0 32.9047018850157,39.9191261890369,0.0 32.9047655641177,39.9188292442716,0.0 32.9047950211679,39.9183326919363,0.0 32.9047277372745,39.9180350072417,0.0 32.9056188191532,39.9179807459044,0.0 32.9055388286409,39.9175572631238,0.0 32.9055436421629,39.9174495732046,0.0 32.9055909197671,39.9172129464064,0.0 32.9061421999767,39.9167344339413,0.0 32.9061570187045,39.9164323211504,0.0 32.9061792404763,39.9157814710632,0.0 32.906144870578,39.9151364407711,0.0 32.908164052605,39.9152434455615,0.0 32.9080041544568,39.9146110931559,0.0 32.9087656539467,39.9145173100507,0.0 32.9088932465452,39.9144507519189,0.0 32.9090285954936,39.9144429176504,0.0 32.9092085582442,39.9140967533345,0.0 32.9093021554172,39.9136631064182,0.0 32.9095533168323,39.9131121484041,0.0 32.9097540941987,39.9125426767761,0.0 32.9095435097628,39.912448626823,0.0 32.9093752306029,39.9124117014517,0.0 32.9094600698508,39.9119608185031,0.0 32.9095513132941,39.9119629416974,0.0 32.9099067356483,39.9119490508033,0.0 32.9099361296025,39.9118134474167,0.0 32.9099525191847,39.911492812259,0.0 32.9103731508728,39.9113423057713,0.0 32.9101821358084,39.9112014843518,0.0 32.9106464396741,39.9106993370615,0.0 32.9107341477199,39.9106131000595,0.0 32.9113664018312,39.9099085294204,0.0 32.9115636220586,39.9096973820421,0.0 32.9125140664913,39.9086217959209,0.0 32.9126589653656,39.9083108308678,0.0 32.9127269784036,39.9080089489636,0.0 32.9126228157294,39.9076168095502,0.0 32.9122920605027,39.9071199374479,0.0 32.9120804640416,39.9068665987223,0.0 32.9119914814745,39.9067978265478,0.0 32.9120169178149,39.9064739234384,0.0 32.9120540597979,39.9063243365867,0.0 32.9122999946686,39.9061977829209,0.0 32.9124626658645,39.9061976214131,0.0 32.9126744445046,39.9063151730218,0.0 32.9129013662532,39.9063663019053,0.0 32.9131259431184,39.9063836345308,0.0 32.9153747747034,39.9060130361057,0.0 32.9155896045744,39.9032524027113,0.0 32.9161943413137,39.9021919787783,0.0 32.9165235067258,39.9016123147296,0.0 32.916951338324,39.9009183050955,0.0 32.9171848073934,39.9005506246079,0.0 32.9174336428539,39.9001454146007,0.0 32.9178699688927,39.8994105386457,0.0 32.9181150993129,39.8990696854338,0.0 32.9184065265233,39.8986000148916,0.0 32.9189611627564,39.897550487727,0.0 32.919478229271,39.8966095731356,0.0 32.919980284673,39.8958028321984,0.0 32.9202448821257,39.8956476069296,0.0 32.9205305662294,39.8956006201609,0.0 32.920710229586,39.8956255511413,0.0 32.9210983884677,39.895818139491,0.0 32.9218872766757,39.8961922926665,0.0 32.9214201868032,39.8966869230604,0.0</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+</Folder>
+<Folder id="kml_id_Area_1.1.5.10.10">
+<name>Schools</name>
+<visibility>0</visibility>
+<open>1</open>
+<Placemark id="kml_131">
+<name>Mehmet Memişoğulları İlkokulu</name>
+<visibility>0</visibility>
+<description><![CDATA[Ege, 788. Cd No:27, 06270 Mamak/Ankara]]></description>
+<Camera>
+<longitude>32.93308796751985</longitude>
+<latitude>39.88837774328981</latitude>
+<altitude>13432.76551045626</altitude>
+<heading>-7.83151518044115</heading>
+<tilt>13.91775821207153</tilt>
+<roll>0.687093962242239</roll>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</Camera>
+<styleUrl>#msn_ranger_station</styleUrl>
+<Point>
+<coordinates>32.9183128567405,39.8992027777778,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_132">
+<name>Kınık İlkokulu</name>
+<visibility>0</visibility>
+<description><![CDATA[Cengizhan, 827. Sk. No:4, 06480 Mamak/Ankara]]></description>
+<Camera>
+<longitude>32.93308796751985</longitude>
+<latitude>39.88837774328981</latitude>
+<altitude>13432.76551045626</altitude>
+<heading>-7.83151518044115</heading>
+<tilt>13.91775821207153</tilt>
+<roll>0.687093962242239</roll>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</Camera>
+<styleUrl>#msn_ranger_station</styleUrl>
+<Point>
+<coordinates>32.9236891536093,39.8994098666767,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_133">
+<name>Ali Kuşçu ilkokulu</name>
+<visibility>0</visibility>
+<description><![CDATA[General Zeki Doğan, Mahallesi, 551. Cd. No:5, 06630 Mamak/Ankara]]></description>
+<Camera>
+<longitude>32.93308796751985</longitude>
+<latitude>39.88837774328981</latitude>
+<altitude>13432.76551045626</altitude>
+<heading>-7.83151518044115</heading>
+<tilt>13.91775821207153</tilt>
+<roll>0.687093962242239</roll>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</Camera>
+<styleUrl>#msn_ranger_station</styleUrl>
+<Point>
+<coordinates>32.9115314088697,39.9107302253463,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_134">
+<name>Yedi Renk Anaokulu</name>
+<visibility>0</visibility>
+<description><![CDATA[General Zeki Doğan, 542. Sk., 06630 Mamak/Ankara]]></description>
+<Camera>
+<longitude>32.93308796751985</longitude>
+<latitude>39.88837774328981</latitude>
+<altitude>13432.76551045626</altitude>
+<heading>-7.83151518044115</heading>
+<tilt>13.91775821207153</tilt>
+<roll>0.687093962242239</roll>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</Camera>
+<styleUrl>#msn_ranger_station</styleUrl>
+<Point>
+<coordinates>32.9085528585883,39.9120471049868,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_135">
+<name>Selçuklu İlköğretim Okulu</name>
+<visibility>0</visibility>
+<description><![CDATA[Mutlu, 717. Sk. No:87, 06630 Mamak/Ankara]]></description>
+<Camera>
+<longitude>32.93308796751985</longitude>
+<latitude>39.88837774328981</latitude>
+<altitude>13432.76551045626</altitude>
+<heading>-7.83151518044115</heading>
+<tilt>13.91775821207153</tilt>
+<roll>0.687093962242239</roll>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</Camera>
+<styleUrl>#msn_ranger_station</styleUrl>
+<Point>
+<coordinates>32.9048495763399,39.9076253322474,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_136">
+<name>METEHAN İLKOKULU</name>
+<visibility>0</visibility>
+<description><![CDATA[Ege, 763. Cd. No.117, 06630 Mamak/Ankara]]></description>
+<Camera>
+<longitude>32.93308796751985</longitude>
+<latitude>39.88837774328981</latitude>
+<altitude>13432.76551045626</altitude>
+<heading>-7.83151518044115</heading>
+<tilt>13.91775821207153</tilt>
+<roll>0.687093962242239</roll>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</Camera>
+<styleUrl>#msn_ranger_station</styleUrl>
+<Point>
+<coordinates>32.9097164181056,39.8982722222222,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_137">
+<name>Ortatepe İmam Hatip Ortaokulu</name>
+<visibility>0</visibility>
+<description><![CDATA[Saimekadın, Ortatepe Sk. No:1, 06620 Mamak/Ankara]]></description>
+<Camera>
+<longitude>32.93308796751985</longitude>
+<latitude>39.88837774328981</latitude>
+<altitude>13432.76551045626</altitude>
+<heading>-7.83151518044115</heading>
+<tilt>13.91775821207153</tilt>
+<roll>0.687093962242239</roll>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</Camera>
+<styleUrl>#msn_ranger_station</styleUrl>
+<Point>
+<coordinates>32.895179066541,39.931088861305,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_138">
+<name>İngiliz Kültür Kreş ve Gündüz Bakimevi</name>
+<visibility>0</visibility>
+<description><![CDATA[Cengizhan, Sultan Fatih Cd., 06480 Mamak/Ankara]]></description>
+<Camera>
+<longitude>32.93308796751985</longitude>
+<latitude>39.88837774328981</latitude>
+<altitude>13432.76551045626</altitude>
+<heading>-7.83151518044115</heading>
+<tilt>13.91775821207153</tilt>
+<roll>0.687093962242239</roll>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</Camera>
+<styleUrl>#msn_ranger_station</styleUrl>
+<Point>
+<coordinates>32.9236133224527,39.8961166666667,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_139">
+<name>Ali Şir Nevai Ortaokulu</name>
+<visibility>0</visibility>
+<description><![CDATA[Durali Alıç, Şehitler Cd. No:85, 06480 Mamak/Ankara]]></description>
+<Camera>
+<longitude>32.93308796751985</longitude>
+<latitude>39.88837774328981</latitude>
+<altitude>13432.76551045626</altitude>
+<heading>-7.83151518044115</heading>
+<tilt>13.91775821207153</tilt>
+<roll>0.687093962242239</roll>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</Camera>
+<styleUrl>#msn_ranger_station</styleUrl>
+<Point>
+<coordinates>32.9282248855758,39.8982694444444,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_140">
+<name>Ergenekon İlkokulu</name>
+<visibility>0</visibility>
+<description><![CDATA[Durali Alıç, Durali Alıç Mh, Pk:06480, 953. Sk. No:17, 06480 Mamak]]></description>
+<Camera>
+<longitude>32.93308796751985</longitude>
+<latitude>39.88837774328981</latitude>
+<altitude>13432.76551045626</altitude>
+<heading>-7.83151518044115</heading>
+<tilt>13.91775821207153</tilt>
+<roll>0.687093962242239</roll>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</Camera>
+<styleUrl>#msn_ranger_station</styleUrl>
+<Point>
+<coordinates>32.9317933334469,39.8993277777778,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_141">
+<name>Mektebim Koleji Mamak Kampusu</name>
+<visibility>0</visibility>
+<description><![CDATA[Durali Alıç, 06480 Mamak/Ankara]]></description>
+<Camera>
+<longitude>32.93308796751985</longitude>
+<latitude>39.88837774328981</latitude>
+<altitude>13432.76551045626</altitude>
+<heading>-7.83151518044115</heading>
+<tilt>13.91775821207153</tilt>
+<roll>0.687093962242239</roll>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</Camera>
+<styleUrl>#msn_ranger_station</styleUrl>
+<Point>
+<coordinates>32.9328190585878,39.89625,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_142">
+<name>Demokrasi Ortaokulu</name>
+<visibility>0</visibility>
+<description><![CDATA[Cengizhan, 866. Sk. No: 5, 06480 Mamak/Ankara]]></description>
+<Camera>
+<longitude>32.93308796751985</longitude>
+<latitude>39.88837774328981</latitude>
+<altitude>13432.76551045626</altitude>
+<heading>-7.83151518044115</heading>
+<tilt>13.91775821207153</tilt>
+<roll>0.687093962242239</roll>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</Camera>
+<styleUrl>#msn_ranger_station</styleUrl>
+<Point>
+<coordinates>32.9195880395522,39.9040163615756,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_143">
+<name>Ege İlkokulu</name>
+<visibility>0</visibility>
+<description><![CDATA[Fahri Korutürk, A Blok, Durali Alıç Mh Şehitler Cd. No:35 Pk:06480, Mh. 905. Sk No:1 D:B Blok, 06480 Mamak/Ankara]]></description>
+<Camera>
+<longitude>32.93308796751985</longitude>
+<latitude>39.88837774328981</latitude>
+<altitude>13432.76551045626</altitude>
+<heading>-7.83151518044115</heading>
+<tilt>13.91775821207153</tilt>
+<roll>0.687093962242239</roll>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</Camera>
+<styleUrl>#msn_ranger_station</styleUrl>
+<Point>
+<coordinates>32.9283443530463,39.9095916666667,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_144">
+<name>Ege anadolu lisesi</name>
+<visibility>0</visibility>
+<description><![CDATA[Fahri Korutürk, 686. Sk. NO:3, 06480 Mamak/Ankara]]></description>
+<Camera>
+<longitude>32.93308796751985</longitude>
+<latitude>39.88837774328981</latitude>
+<altitude>13432.76551045626</altitude>
+<heading>-7.83151518044115</heading>
+<tilt>13.91775821207153</tilt>
+<roll>0.687093962242239</roll>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</Camera>
+<styleUrl>#msn_ranger_station</styleUrl>
+<Point>
+<coordinates>32.919510235887,39.9113611111111,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_145">
+<name>Naşide Halil Gelendost İlkokulu</name>
+<visibility>0</visibility>
+<description><![CDATA[Şirintepe, 1031. Cd. No:110/AB, 06480 Mamak/Ankara]]></description>
+<Camera>
+<longitude>32.93308796751985</longitude>
+<latitude>39.88837774328981</latitude>
+<altitude>13432.76551045626</altitude>
+<heading>-7.83151518044115</heading>
+<tilt>13.91775821207153</tilt>
+<roll>0.687093962242239</roll>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</Camera>
+<styleUrl>#msn_ranger_station</styleUrl>
+<Point>
+<coordinates>32.9240441874235,39.9147194444444,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_146">
+<name>Türkoğlu İlkokulu</name>
+<visibility>0</visibility>
+<description><![CDATA[Şirintepe Mh. Hocalı Cad.No:72 Pk:06470, 06470 Mamak]]></description>
+<Camera>
+<longitude>32.93308796751985</longitude>
+<latitude>39.88837774328981</latitude>
+<altitude>13432.76551045626</altitude>
+<heading>-7.83151518044115</heading>
+<tilt>13.91775821207153</tilt>
+<roll>0.687093962242239</roll>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</Camera>
+<styleUrl>#msn_ranger_station</styleUrl>
+<Point>
+<coordinates>32.9199321009178,39.9203222222222,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_147">
+<name>Süleyman Nazif İlkokulu</name>
+<visibility>0</visibility>
+<description><![CDATA[Tuzluçayır, 603. no, 592. Sk., 06470 Mamak/Ankara]]></description>
+<Camera>
+<longitude>32.93308796751985</longitude>
+<latitude>39.88837774328981</latitude>
+<altitude>13432.76551045626</altitude>
+<heading>-7.83151518044115</heading>
+<tilt>13.91775821207153</tilt>
+<roll>0.687093962242239</roll>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</Camera>
+<styleUrl>#msn_ranger_station</styleUrl>
+<Point>
+<coordinates>32.9098133138485,39.9213032735952,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_148">
+<name>Tuzluçayır İöo</name>
+<visibility>0</visibility>
+<description><![CDATA[Çağlayan, 299. Sk. No:1, 06470 Mamak/Ankara]]></description>
+<Camera>
+<longitude>32.93308796751985</longitude>
+<latitude>39.88837774328981</latitude>
+<altitude>13432.76551045626</altitude>
+<heading>-7.83151518044115</heading>
+<tilt>13.91775821207153</tilt>
+<roll>0.687093962242239</roll>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</Camera>
+<styleUrl>#msn_ranger_station</styleUrl>
+<Point>
+<coordinates>32.9071640554572,39.9253055555556,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_149">
+<name>Tuzluçayır Anadolu Lisesi</name>
+<visibility>0</visibility>
+<description><![CDATA[Aşık Veysel, Tıp Fakültesi Cad. No:152, 06620 Mamak/Ankara]]></description>
+<Camera>
+<longitude>32.93308796751985</longitude>
+<latitude>39.88837774328981</latitude>
+<altitude>13432.76551045626</altitude>
+<heading>-7.83151518044115</heading>
+<tilt>13.91775821207153</tilt>
+<roll>0.687093962242239</roll>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</Camera>
+<styleUrl>#msn_ranger_station</styleUrl>
+<Point>
+<coordinates>32.9027786916817,39.9248611111111,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_150">
+<name>Sibel İsmet Çatık Ortaokulu</name>
+<visibility>0</visibility>
+<description><![CDATA[Tuzluçayır, Süleyman Ayten Cd. No:13, 06620 Mamak/Ankara]]></description>
+<Camera>
+<longitude>32.93308796751985</longitude>
+<latitude>39.88837774328981</latitude>
+<altitude>13432.76551045626</altitude>
+<heading>-7.83151518044115</heading>
+<tilt>13.91775821207153</tilt>
+<roll>0.687093962242239</roll>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</Camera>
+<styleUrl>#msn_ranger_station</styleUrl>
+<Point>
+<coordinates>32.9058230260587,39.9276940227722,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_151">
+<name>Abidinpaşa Anadolu Lisesi</name>
+<visibility>0</visibility>
+<description><![CDATA[Saimekadın, Cami Sk. No:48/2, 06620 Mamak/Ankara]]></description>
+<Camera>
+<longitude>32.93308796751985</longitude>
+<latitude>39.88837774328981</latitude>
+<altitude>13432.76551045626</altitude>
+<heading>-7.83151518044115</heading>
+<tilt>13.91775821207153</tilt>
+<roll>0.687093962242239</roll>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</Camera>
+<styleUrl>#msn_ranger_station</styleUrl>
+<Point>
+<coordinates>32.8944654781877,39.9275166666667,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_152">
+<name>Suzan Mehmet Gönç Mesleki ve Teknik Anadolu Lisesi</name>
+<visibility>0</visibility>
+<description><![CDATA[39.929553728987585, 32.89978262605879]]></description>
+<Camera>
+<longitude>32.93308796751985</longitude>
+<latitude>39.88837774328981</latitude>
+<altitude>13432.76551045626</altitude>
+<heading>-7.83151518044115</heading>
+<tilt>13.91775821207153</tilt>
+<roll>0.687093962242239</roll>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</Camera>
+<styleUrl>#msn_ranger_station</styleUrl>
+<Point>
+<coordinates>32.8997826260588,39.9295527777778,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_153">
+<name>Başkent Anadolu Lisesi</name>
+<visibility>0</visibility>
+<description><![CDATA[Balkiraz Mh, Tıp Fakültesi, Saraycık Sk. No:4, 06620 Mamak/Ankara]]></description>
+<Camera>
+<longitude>32.93308796751985</longitude>
+<latitude>39.88837774328981</latitude>
+<altitude>13432.76551045626</altitude>
+<heading>-7.83151518044115</heading>
+<tilt>13.91775821207153</tilt>
+<roll>0.687093962242239</roll>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</Camera>
+<styleUrl>#msn_ranger_station</styleUrl>
+<Point>
+<coordinates>32.8880866628464,39.9312611111111,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_154">
+<name>Ertuğrulgazi İlköğretim Okulu</name>
+<visibility>0</visibility>
+<description><![CDATA[Cebeci, Şht. Hasan Karaca Sk. No:17, 06590 Çankaya/Ankara]]></description>
+<Camera>
+<longitude>32.93308796751985</longitude>
+<latitude>39.88837774328981</latitude>
+<altitude>13432.76551045626</altitude>
+<heading>-7.83151518044115</heading>
+<tilt>13.91775821207153</tilt>
+<roll>0.687093962242239</roll>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</Camera>
+<styleUrl>#msn_ranger_station</styleUrl>
+<Point>
+<coordinates>32.8821722513509,39.9291961977036,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_155">
+<name>Ahmet Hızal İlköğretim Okulu</name>
+<visibility>0</visibility>
+<description><![CDATA[Abidinpaşa, Kırkağaç Sk. No:18, 06620 Mamak/Ankara]]></description>
+<Camera>
+<longitude>32.93308796751985</longitude>
+<latitude>39.88837774328981</latitude>
+<altitude>13432.76551045626</altitude>
+<heading>-7.83151518044115</heading>
+<tilt>13.91775821207153</tilt>
+<roll>0.687093962242239</roll>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</Camera>
+<styleUrl>#msn_ranger_station</styleUrl>
+<Point>
+<coordinates>32.8867781702367,39.9252555555556,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_156">
+<name>MAMAK ŞEHİT MEKAN ŞAHİN İMAM HATİP ORTAOKULU</name>
+<visibility>0</visibility>
+<description><![CDATA[Abidinpaşa Mah, Karaşar Cad No:31, 06620 Mamak/Ankara]]></description>
+<Camera>
+<longitude>32.93308796751985</longitude>
+<latitude>39.88837774328981</latitude>
+<altitude>13432.76551045626</altitude>
+<heading>-7.83151518044115</heading>
+<tilt>13.91775821207153</tilt>
+<roll>0.687093962242239</roll>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</Camera>
+<styleUrl>#msn_ranger_station</styleUrl>
+<Point>
+<coordinates>32.8896131107174,39.92345,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_157">
+<name>Oğuz Kaan İlkokulu</name>
+<visibility>0</visibility>
+<description><![CDATA[Akdere, Şht. Ayhan Babadağ Cd. No:8, 06630 Mamak/Ankara]]></description>
+<Camera>
+<longitude>32.93308796751985</longitude>
+<latitude>39.88837774328981</latitude>
+<altitude>13432.76551045626</altitude>
+<heading>-7.83151518044115</heading>
+<tilt>13.91775821207153</tilt>
+<roll>0.687093962242239</roll>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</Camera>
+<styleUrl>#msn_ranger_station</styleUrl>
+<Point>
+<coordinates>32.8864743720825,39.9199305555556,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_158">
+<name>Prof. Dr. Rağıp Üner Mesleki ve Teknik Anadolu Lisesi</name>
+<visibility>0</visibility>
+<description><![CDATA[Akdere, 393. Sk. 30. Sk D:7, 06101 Mamak/Ankara]]></description>
+<Camera>
+<longitude>32.93308796751985</longitude>
+<latitude>39.88837774328981</latitude>
+<altitude>13432.76551045626</altitude>
+<heading>-7.83151518044115</heading>
+<tilt>13.91775821207153</tilt>
+<roll>0.687093962242239</roll>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</Camera>
+<styleUrl>#msn_ranger_station</styleUrl>
+<Point>
+<coordinates>32.8875352874237,39.9193313360071,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_159">
+<name>75. Yıl İlkokulu</name>
+<visibility>0</visibility>
+<description><![CDATA[Peyami Sefa, 344. Cd. No:61, 06630 Mamak/Ankara]]></description>
+<Camera>
+<longitude>32.93308796751985</longitude>
+<latitude>39.88837774328981</latitude>
+<altitude>13432.76551045626</altitude>
+<heading>-7.83151518044115</heading>
+<tilt>13.91775821207153</tilt>
+<roll>0.687093962242239</roll>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</Camera>
+<styleUrl>#msn_ranger_station</styleUrl>
+<Point>
+<coordinates>32.8977377107172,39.9195333333333,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_160">
+<name>Kazım Orbay İlkokulu</name>
+<visibility>0</visibility>
+<description><![CDATA[Kazım Orbay, 341. Sk. No:4, 06630 Mamak/Ankara]]></description>
+<Camera>
+<longitude>32.93308796751985</longitude>
+<latitude>39.88837774328981</latitude>
+<altitude>13432.76551045626</altitude>
+<heading>-7.83151518044115</heading>
+<tilt>13.91775821207153</tilt>
+<roll>0.687093962242239</roll>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</Camera>
+<styleUrl>#msn_ranger_station</styleUrl>
+<Point>
+<coordinates>32.8955692107171,39.9171998822244,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_161">
+<name>Çağrıbey Anadolu Lisesi</name>
+<visibility>0</visibility>
+<description><![CDATA[Kazım Orbay, 342. Cd. No:46, 06630 Mamak/Ankara]]></description>
+<Camera>
+<longitude>32.93308796751985</longitude>
+<latitude>39.88837774328981</latitude>
+<altitude>13432.76551045626</altitude>
+<heading>-7.83151518044115</heading>
+<tilt>13.91775821207153</tilt>
+<roll>0.687093962242239</roll>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</Camera>
+<styleUrl>#msn_ranger_station</styleUrl>
+<Point>
+<coordinates>32.8954150469415,39.9166194444444,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_162">
+<name>Manolya Anaokulu</name>
+<visibility>0</visibility>
+<description><![CDATA[Kazım Orbay, 342. Cd. No:48, 06630 Mamak/Ankara]]></description>
+<Camera>
+<longitude>32.93308796751985</longitude>
+<latitude>39.88837774328981</latitude>
+<altitude>13432.76551045626</altitude>
+<heading>-7.83151518044115</heading>
+<tilt>13.91775821207153</tilt>
+<roll>0.687093962242239</roll>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</Camera>
+<styleUrl>#msn_ranger_station</styleUrl>
+<Point>
+<coordinates>32.8942304107172,39.9174222222222,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_163">
+<name>Rotary Yeşiltepe Ortaokulu</name>
+<visibility>0</visibility>
+<description><![CDATA[Akdere, Mehmet Ali Altın Cd No:1, 06630 Mamak/Ankara]]></description>
+<Camera>
+<longitude>32.93308796751985</longitude>
+<latitude>39.88837774328981</latitude>
+<altitude>13432.76551045626</altitude>
+<heading>-7.83151518044115</heading>
+<tilt>13.91775821207153</tilt>
+<roll>0.687093962242239</roll>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</Camera>
+<styleUrl>#msn_ranger_station</styleUrl>
+<Point>
+<coordinates>32.8928154567411,39.9162527803602,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_164">
+<name>Şehit Hasan Altın Orta Okulu</name>
+<visibility>0</visibility>
+<description><![CDATA[General Zeki Doğan, 494. Sk. No:16, 06630 Mamak/Ankara]]></description>
+<Camera>
+<longitude>32.93308796751985</longitude>
+<latitude>39.88837774328981</latitude>
+<altitude>13432.76551045626</altitude>
+<heading>-7.83151518044115</heading>
+<tilt>13.91775821207153</tilt>
+<roll>0.687093962242239</roll>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</Camera>
+<styleUrl>#msn_ranger_station</styleUrl>
+<Point>
+<coordinates>32.9037897604355,39.9161862998109,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_165">
+<name>Kuva-yi Milliye Ortaokulu</name>
+<visibility>0</visibility>
+<description><![CDATA[General Zeki Doğan Mah., İmam Alim Sultan Cd. No:35, 06630 Mamak/Ankara]]></description>
+<Camera>
+<longitude>32.93308796751985</longitude>
+<latitude>39.88837774328981</latitude>
+<altitude>13432.76551045626</altitude>
+<heading>-7.83151518044115</heading>
+<tilt>13.91775821207153</tilt>
+<roll>0.687093962242239</roll>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</Camera>
+<styleUrl>#msn_ranger_station</styleUrl>
+<Point>
+<coordinates>32.9115817260582,39.909304158206,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_166">
+<name>Hurin Yavuzalp İlkokulu</name>
+<visibility>0</visibility>
+<description><![CDATA[General Zeki Doğan, 512. Sk. No:10, 06630, 06630 Mamak/Ankara]]></description>
+<Camera>
+<longitude>32.93308796751985</longitude>
+<latitude>39.88837774328981</latitude>
+<altitude>13432.76551045626</altitude>
+<heading>-7.83151518044115</heading>
+<tilt>13.91775821207153</tilt>
+<roll>0.687093962242239</roll>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</Camera>
+<styleUrl>#msn_ranger_station</styleUrl>
+<Point>
+<coordinates>32.9075146530465,39.9178916666667,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_167">
+<name>Özel Yeni Yaşam Anaokulu</name>
+<visibility>0</visibility>
+<description><![CDATA[General Zeki Doğan, General Zeki Doğan Park İçi Yolu, 06630 Mamak/Ankara]]></description>
+<Camera>
+<longitude>32.93308796751985</longitude>
+<latitude>39.88837774328981</latitude>
+<altitude>13432.76551045626</altitude>
+<heading>-7.83151518044115</heading>
+<tilt>13.91775821207153</tilt>
+<roll>0.687093962242239</roll>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</Camera>
+<styleUrl>#msn_ranger_station</styleUrl>
+<Point>
+<coordinates>32.9049468395525,39.917275,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_168">
+<name>Abidinpaşa İlkokulu</name>
+<visibility>0</visibility>
+<description><![CDATA[Abidinpaşa, Okul Sokağı No:8, 06620 Mamak/Ankara]]></description>
+<Camera>
+<longitude>32.93308796751985</longitude>
+<latitude>39.88837774328981</latitude>
+<altitude>13432.76551045626</altitude>
+<heading>-7.83151518044115</heading>
+<tilt>13.91775821207153</tilt>
+<roll>0.687093962242239</roll>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</Camera>
+<styleUrl>#msn_ranger_station</styleUrl>
+<Point>
+<coordinates>32.888559507023,39.928651030778,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_169">
+<name>Habibe-Mehmet Kaya Anaokulu</name>
+<visibility>0</visibility>
+<description><![CDATA[Fahri Korutürk, Natoyolu Caddesı No:261, 06480 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.91554781631943</longitude>
+<latitude>39.91523169499074</latitude>
+<altitude>0</altitude>
+<range>1255.536149852179</range>
+<tilt>0</tilt>
+<heading>-24.0698938941438</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_S</styleUrl>
+<Point>
+<coordinates>32.9186193273846,39.9099518794276,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_170">
+<name>Ayşe Zeki Sayan İlkokulu</name>
+<visibility>0</visibility>
+<description><![CDATA[Abidinpaşa, Cami Sk. No:48, 06620 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.89545544902113</longitude>
+<latitude>39.92706330903024</latitude>
+<altitude>0</altitude>
+<range>543.1868828567607</range>
+<tilt>15.90372781525598</tilt>
+<heading>26.2304513011907</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_S</styleUrl>
+<Point>
+<coordinates>32.8948273139022,39.9276362086835,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_171">
+<name>29 Ekim Okulu</name>
+<visibility>0</visibility>
+<description><![CDATA[Balkiraz, No:, Tıp Fakültesi Cd. No:77, 06620 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.88998142582569</longitude>
+<latitude>39.92947623182981</latitude>
+<altitude>0</altitude>
+<range>595.1498359177771</range>
+<tilt>17.20032796973521</tilt>
+<heading>26.2269620606095</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_S</styleUrl>
+<Point>
+<coordinates>32.8874709508714,39.9303203467128,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_172">
+<name>Abidinpaşa Teknik Ve Endüstri Meslek Lisesi</name>
+<visibility>0</visibility>
+<description><![CDATA[Aşık Veysel Mh, Tıp Fakültesi Cd. No, 06630 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.89141661388508</longitude>
+<latitude>39.92825657399771</latitude>
+<altitude>0</altitude>
+<range>883.3728821781687</range>
+<tilt>17.20109362881049</tilt>
+<heading>26.22788360632943</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_S</styleUrl>
+<Point>
+<coordinates>32.8917333333333,39.9276958782528,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_173">
+<name>Mehmet Çekiç Ortaokulu</name>
+<visibility>0</visibility>
+<description><![CDATA[Aşık Veysel, Tıp Fakültesi Cd. No: 152/B, 06620 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.90318968068215</longitude>
+<latitude>39.92262399813568</latitude>
+<altitude>0</altitude>
+<range>828.351535611259</range>
+<tilt>17.20094748713069</tilt>
+<heading>26.2354393532034</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_S</styleUrl>
+<Point>
+<coordinates>32.9028606293214,39.9243173036724,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_174">
+<name>Açıkalın İlkokulu</name>
+<visibility>0</visibility>
+<description><![CDATA[Fahri Korutürk, 686. Sk. No:9, 06480 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.9185066008102</longitude>
+<latitude>39.91070385798738</latitude>
+<altitude>0</altitude>
+<range>308.222729663119</range>
+<tilt>25.65972929875209</tilt>
+<heading>0.02813721602596732</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_S</styleUrl>
+<Point>
+<coordinates>32.91865,39.910704795135,0.0</coordinates>
+</Point>
+</Placemark>
+</Folder>
+<Folder id="kml_id_Area_1.1.5.4.6">
+<name>Market</name>
+<visibility>0</visibility>
+<Placemark id="kml_2">
+<name>Öztürk Süpermarket</name>
+<visibility>0</visibility>
+<description><![CDATA[Ege, Natoyolu Caddesı No:108/A, 06630 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.92143586744069</longitude>
+<latitude>39.89968813816718</latitude>
+<altitude>0</altitude>
+<range>1515.162209043174</range>
+<tilt>0</tilt>
+<heading>-0.0002487424558467049</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_S10</styleUrl>
+<Point>
+<coordinates>32.921282,39.896227,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_3">
+<name>Çağdaş Market</name>
+<visibility>0</visibility>
+<description><![CDATA[Ege, Natoyolu Caddesı No:290 D:114, 06270 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.921556481531</longitude>
+<latitude>39.89658016029311</latitude>
+<altitude>0</altitude>
+<range>349.9362560102573</range>
+<tilt>0</tilt>
+<heading>2.57647193081315e-10</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_S10</styleUrl>
+<Point>
+<coordinates>32.921155,39.896847,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_4">
+<name>Bim-Yavuz Selim Şubesi</name>
+<visibility>0</visibility>
+<description><![CDATA[Natoyolu Caddesı no:417/75
+Cengizhan, 06480 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.92123702353229</longitude>
+<latitude>39.89676480116179</latitude>
+<altitude>0</altitude>
+<range>348.8445669490562</range>
+<tilt>4.397573968345584</tilt>
+<heading>-50.96405906571086</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_S10</styleUrl>
+<Point>
+<coordinates>32.920505,39.89931,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_5">
+<name>Bizim-Nato Yolu</name>
+<visibility>0</visibility>
+<description><![CDATA[Ege, Natoyolu Caddesı, 06270 Mamak/Ankara
+39.899198, 32.919571]]></description>
+<LookAt>
+<longitude>32.91949549788273</longitude>
+<latitude>39.89796628928485</latitude>
+<altitude>0</altitude>
+<range>748.8026647099817</range>
+<tilt>0</tilt>
+<heading>8.022842559367835</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_S10</styleUrl>
+<Point>
+<coordinates>32.919571,39.899198,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_6">
+<name>Altunbilekler</name>
+<visibility>0</visibility>
+<description><![CDATA[Ege, Natoyolu Caddesı No:234/A D:No:234/A, 06270 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.91959445631508</longitude>
+<latitude>39.90001477449395</latitude>
+<altitude>0</altitude>
+<range>551.8323310841287</range>
+<tilt>13.77143084668796</tilt>
+<heading>-27.5433604200524</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_S10</styleUrl>
+<Point>
+<coordinates>32.918953,39.900384,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_7">
+<name>Natoyolu - Akyurt Süpermarket</name>
+<visibility>0</visibility>
+<description><![CDATA[Ege, Natoyolu Caddesı No:226 D:A, 06480 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.91928485750878</longitude>
+<latitude>39.90119794939583</latitude>
+<altitude>0</altitude>
+<range>547.0002142562682</range>
+<tilt>13.77142051732904</tilt>
+<heading>-27.5435590177559</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_S10</styleUrl>
+<Point>
+<coordinates>32.918513,39.901524,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_8">
+<name>Bim Market</name>
+<visibility>0</visibility>
+<description><![CDATA[Cengizhan, 846. Cd. 86/A-B, 06480 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.91928485750878</longitude>
+<latitude>39.90119794939583</latitude>
+<altitude>0</altitude>
+<range>547.0002142562682</range>
+<tilt>13.77142051732904</tilt>
+<heading>-27.5435590177559</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_S10</styleUrl>
+<Point>
+<coordinates>32.923601,39.901928,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_9">
+<name>Yunus Market</name>
+<visibility>0</visibility>
+<description><![CDATA[Ege, Natoyolu Caddesı No:202, 06270 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.91770388442306</longitude>
+<latitude>39.90202395818506</latitude>
+<altitude>0</altitude>
+<range>1014.38740708316</range>
+<tilt>13.77241969183407</tilt>
+<heading>-27.54457338158661</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_S10</styleUrl>
+<Point>
+<coordinates>32.917387,39.903103,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_10">
+<name>A101</name>
+<visibility>0</visibility>
+<description><![CDATA[Ege, 800. Sk. No:21, 06340 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.91770388442306</longitude>
+<latitude>39.90202395818506</latitude>
+<altitude>0</altitude>
+<range>1014.38740708316</range>
+<tilt>13.77241969183407</tilt>
+<heading>-27.54457338158661</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_S10</styleUrl>
+<Point>
+<coordinates>32.918566,39.898527,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_11">
+<name>File Market</name>
+<visibility>0</visibility>
+<description><![CDATA[804. Sk. No:15/A
+Ege, 06480 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.91887816318963</longitude>
+<latitude>39.89962353561427</latitude>
+<altitude>0</altitude>
+<range>837.3840503891799</range>
+<tilt>20.54592800639829</tilt>
+<heading>-27.54370149171466</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_S10</styleUrl>
+<Point>
+<coordinates>32.919216,39.898604,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_12">
+<name>Çağdaş Market</name>
+<visibility>0</visibility>
+<description><![CDATA[Ege, Natoyolu Caddesı No:196, 06270, 06270 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.91887816318963</longitude>
+<latitude>39.89962353561427</latitude>
+<altitude>0</altitude>
+<range>837.3840503891799</range>
+<tilt>20.54592800639829</tilt>
+<heading>-27.54370149171466</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_S10</styleUrl>
+<Point>
+<coordinates>32.917198,39.90349,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_13">
+<name>Öztürk Süpermarket</name>
+<visibility>0</visibility>
+<description><![CDATA[General Zeki Doğan Mah., Natoyolu Cad., 06630 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.92117359547234</longitude>
+<latitude>39.91321670586844</latitude>
+<altitude>0</altitude>
+<range>2207.714878293302</range>
+<tilt>0</tilt>
+<heading>1.037623523169721e-08</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_S10</styleUrl>
+<Point>
+<coordinates>32.914611,39.911856,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_14">
+<name>A101</name>
+<visibility>0</visibility>
+<description><![CDATA[720. Sk. No:41
+Mutlu, 06630 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.91526357612012</longitude>
+<latitude>39.91225161923854</latitude>
+<altitude>0</altitude>
+<range>1719.639722345917</range>
+<tilt>3.45356309076661</tilt>
+<heading>-0.003698169791690465</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_S10</styleUrl>
+<Point>
+<coordinates>32.908876,39.906498,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_15">
+<name>Mutlu - Akyurt Süpermarket</name>
+<visibility>0</visibility>
+<description><![CDATA[General Zeki Doğan, Mutlu Cd. 59/B, 06630 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.91526357612012</longitude>
+<latitude>39.91225161923854</latitude>
+<altitude>0</altitude>
+<range>1719.639722345917</range>
+<tilt>3.45356309076661</tilt>
+<heading>-0.003698169791690465</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_S10</styleUrl>
+<Point>
+<coordinates>32.907372,39.909899,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_16">
+<name>Akyurt Market</name>
+<visibility>0</visibility>
+<description><![CDATA[Anadolu Cd. 78/A
+Şahintepe, 06470 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.90766772698372</longitude>
+<latitude>39.91855020239911</latitude>
+<altitude>0</altitude>
+<range>1083.956052652219</range>
+<tilt>0</tilt>
+<heading>0.004807207567884659</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_S10</styleUrl>
+<Point>
+<coordinates>32.914151,39.922071,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_17">
+<name>Başgi̇mpa</name>
+<visibility>0</visibility>
+<description><![CDATA[Cengizhan, 844. Sk, 06480 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.92091276837147</longitude>
+<latitude>39.89872422671326</latitude>
+<altitude>0</altitude>
+<range>935.3062697121908</range>
+<tilt>0</tilt>
+<heading>0.001357266432260121</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_S10</styleUrl>
+<Point>
+<coordinates>32.924144,39.900229,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_18">
+<name>Özlem Market</name>
+<visibility>0</visibility>
+<description><![CDATA[Ege, 06630 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.91988400630267</longitude>
+<latitude>39.8994736233098</latitude>
+<altitude>0</altitude>
+<range>744.8606750854219</range>
+<tilt>0.350212444326643</tilt>
+<heading>0.0006984033163308907</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_S10</styleUrl>
+<Point>
+<coordinates>32.920558,39.897252,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_19">
+<name>A101</name>
+<visibility>0</visibility>
+<description><![CDATA[Tuzluçayır, 639/2 Sk. 1/A, 06470 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.91386017365664</longitude>
+<latitude>39.91975042457702</latitude>
+<altitude>0</altitude>
+<range>2935.835841798998</range>
+<tilt>20.62705949986248</tilt>
+<heading>-0.002923630623018701</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_S10</styleUrl>
+<Point>
+<coordinates>32.911158,39.91845,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_20">
+<name>Bim</name>
+<visibility>0</visibility>
+<description><![CDATA[Natoyolu Caddesı No:81/B
+Tuzluçayır, 06620 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.91348819546335</longitude>
+<latitude>39.91937529710477</latitude>
+<altitude>0</altitude>
+<range>2314.164646159712</range>
+<tilt>21.67107743576638</tilt>
+<heading>-0.003138939702360618</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_S10</styleUrl>
+<Point>
+<coordinates>32.910379,39.918533,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_21">
+<name>Bim</name>
+<visibility>0</visibility>
+<description><![CDATA[Şahintepe, 666. Sk. 1/15 D:C, 06470 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.91348819546335</longitude>
+<latitude>39.91937529710477</latitude>
+<altitude>0</altitude>
+<range>2314.164646159712</range>
+<tilt>21.67107743576638</tilt>
+<heading>-0.003138939702360618</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_S10</styleUrl>
+<Point>
+<coordinates>32.915657,39.91222,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_22">
+<name>Gökmar</name>
+<visibility>0</visibility>
+<description><![CDATA[Natoyolu Caddesı No:119 D:A
+Şahintepe, 06470 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.91423107918686</longitude>
+<latitude>39.91558181294358</latitude>
+<altitude>0</altitude>
+<range>3375.096066477575</range>
+<tilt>30.49149470536144</tilt>
+<heading>-0.001645849574522743</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_S10</styleUrl>
+<Point>
+<coordinates>32.913716,39.913043,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_23">
+<name>Şok Market</name>
+<visibility>0</visibility>
+<description><![CDATA[Natoyolu Caddesı NO:111/A
+Şahintepe, 06470 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.9154529945953</longitude>
+<latitude>39.90914901201601</latitude>
+<altitude>0</altitude>
+<range>4832.339544731552</range>
+<tilt>45.00000001201601</tilt>
+<heading>-7.613376435440935e-09</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_S10</styleUrl>
+<Point>
+<coordinates>32.913357,39.914191,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_24">
+<name>Bim</name>
+<visibility>0</visibility>
+<description><![CDATA[Mutlu, 723. Sk. 47/A-B, 06630 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.91362119763136</longitude>
+<latitude>39.90699351058831</latitude>
+<altitude>0</altitude>
+<range>1062.844292015312</range>
+<tilt>39.81653278489819</tilt>
+<heading>0.002356780698614626</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_S10</styleUrl>
+<Point>
+<coordinates>32.912786,39.906209,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_25">
+<name>A101</name>
+<visibility>0</visibility>
+<description><![CDATA[General Zeki Doğan, Natoyolu Caddesı No:94, 06630 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.91319008410741</longitude>
+<latitude>39.9088789094285</latitude>
+<altitude>0</altitude>
+<range>1068.845725181784</range>
+<tilt>39.81656730054191</tilt>
+<heading>0.002080258022951806</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_S10</styleUrl>
+<Point>
+<coordinates>32.912706,39.914178,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_26">
+<name>NATOGROSS Market</name>
+<visibility>0</visibility>
+<description><![CDATA[General Zeki Doğan, Natoyolu Caddesı No:72 D:76, 06630 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.91261355047097</longitude>
+<latitude>39.91410547652837</latitude>
+<altitude>0</altitude>
+<range>432.8259979138825</range>
+<tilt>29.34112817566534</tilt>
+<heading>-0.006074267957341477</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_S10</styleUrl>
+<Point>
+<coordinates>32.910992,39.916904,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_27">
+<name>A101</name>
+<visibility>0</visibility>
+<description><![CDATA[General Zeki Doğan, Natoyolu Caddesı No:38, 06630 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.91182047317792</longitude>
+<latitude>39.91513866942991</latitude>
+<altitude>0</altitude>
+<range>2955.44100799208</range>
+<tilt>29.30824539548578</tilt>
+<heading>-0.006611573152670596</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_S10</styleUrl>
+<Point>
+<coordinates>32.906826,39.919527,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_28">
+<name>Şok</name>
+<visibility>0</visibility>
+<description><![CDATA[General Zeki Doğan, 509. Sk. 38/A, 06630 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.90720260639218</longitude>
+<latitude>39.92118659504121</latitude>
+<altitude>0</altitude>
+<range>845.7604723703762</range>
+<tilt>52.6011473484709</tilt>
+<heading>0.006125898884067168</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_S10</styleUrl>
+<Point>
+<coordinates>32.906762,39.919691,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_29">
+<name>Altunbilekler</name>
+<visibility>0</visibility>
+<description><![CDATA[General Zeki Doğan, Natoyolu Caddesı No:2/A, 06630 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.90699860313095</longitude>
+<latitude>39.92028081564597</latitude>
+<altitude>0</altitude>
+<range>394.4261130302953</range>
+<tilt>58.14744202404286</tilt>
+<heading>0.008337607513144794</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_S10</styleUrl>
+<Point>
+<coordinates>32.903052,39.923421,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_30">
+<name>Bim</name>
+<visibility>0</visibility>
+<description><![CDATA[Peyami Sefa Mah Dereboyu Caddesi 6/F-G, 06630 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.90378746499757</longitude>
+<latitude>39.92397548818101</latitude>
+<altitude>0</altitude>
+<range>1323.801106756527</range>
+<tilt>56.60143386160493</tilt>
+<heading>0.005653219360530285</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_S10</styleUrl>
+<Point>
+<coordinates>32.902565,39.923033,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_31">
+<name>Bim</name>
+<visibility>0</visibility>
+<description><![CDATA[General Zeki Doğan, Mahallesi, 508. Cd. No:29, 06630 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.90773071284602</longitude>
+<latitude>39.91944208272</latitude>
+<altitude>0</altitude>
+<range>1561.158605127257</range>
+<tilt>45.98528792011282</tilt>
+<heading>-6.954865688679122</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_S10</styleUrl>
+<Point>
+<coordinates>32.905821,39.915706,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_32">
+<name>Bim-Natoyolu Şubesi</name>
+<visibility>0</visibility>
+<description><![CDATA[General Zeki Doğan Natoyolu Caddesı No:90/A-B-C, 06630 Mamak]]></description>
+<LookAt>
+<longitude>32.90809255289471</longitude>
+<latitude>39.91879762042633</latitude>
+<altitude>0</altitude>
+<range>1461.259484022318</range>
+<tilt>45.10740195624492</tilt>
+<heading>-6.95537716603898</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_S10</styleUrl>
+<Point>
+<coordinates>32.912423,39.914555,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_33">
+<name>Çağdaş Market</name>
+<visibility>0</visibility>
+<description><![CDATA[General Zeki Doğan, 518. Cd. No:95, 06630 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.91190567332375</longitude>
+<latitude>39.91461046857309</latitude>
+<altitude>0</altitude>
+<range>627.3372039928054</range>
+<tilt>43.5237454092207</tilt>
+<heading>-6.954257115071652</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_S10</styleUrl>
+<Point>
+<coordinates>32.912484,39.913752,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_34">
+<name>Çağdaş Market</name>
+<visibility>0</visibility>
+<description><![CDATA[Tuzluçayır Mah, Süleyman Ayten Cd. No:35, 06620 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.90443231668579</longitude>
+<latitude>39.92291648952811</latitude>
+<altitude>0</altitude>
+<range>3839.598206965386</range>
+<tilt>41.03961957630031</tilt>
+<heading>0.0005117254496938731</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_S10</styleUrl>
+<Point>
+<coordinates>32.904438,39.9257944444444,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_35">
+<name>Şok</name>
+<visibility>0</visibility>
+<description><![CDATA[Tuzluçayır, Tıp Fakültesi Cd. No:229 D:A, 06620 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.90388851696591</longitude>
+<latitude>39.92460573827663</latitude>
+<altitude>0</altitude>
+<range>1309.136303781403</range>
+<tilt>37.99784181695099</tilt>
+<heading>0.0008797292431675838</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_S10</styleUrl>
+<Point>
+<coordinates>32.904248,39.925347,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_36">
+<name>Şok-Abidinpaşa Şubesi</name>
+<visibility>0</visibility>
+<description><![CDATA[Tıp Fakültesi Cd. No:159/14
+Kartaltepe, 06620 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.90388851696591</longitude>
+<latitude>39.92460573827663</latitude>
+<altitude>0</altitude>
+<range>1309.136303781403</range>
+<tilt>37.99784181695099</tilt>
+<heading>0.0008797292431675838</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_S10</styleUrl>
+<Point>
+<coordinates>32.89911,39.925216,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_37">
+<name>Bim</name>
+<visibility>0</visibility>
+<description><![CDATA[311. Sk.
+Kartaltepe, 06620 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.90388851696591</longitude>
+<latitude>39.92460573827663</latitude>
+<altitude>0</altitude>
+<range>1309.136303781403</range>
+<tilt>37.99784181695099</tilt>
+<heading>0.0008797292431675838</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_S10</styleUrl>
+<Point>
+<coordinates>32.899442,39.925975,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_38">
+<name>Yunus Marketler Zinciri Abidinpaşa Şubesi</name>
+<visibility>0</visibility>
+<description><![CDATA[Saimekadın, Tıp Fakültesi Cd. No: 135 / A, 06620 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.90107986202685</longitude>
+<latitude>39.92448295766222</latitude>
+<altitude>0</altitude>
+<range>544.3677328615206</range>
+<tilt>33.14801264678666</tilt>
+<heading>0.0003286343484297841</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_S10</styleUrl>
+<Point>
+<coordinates>32.8958916666667,39.926654,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_39">
+<name>Bim-Abidinpaşa Şubesi</name>
+<visibility>0</visibility>
+<description><![CDATA[Abidinpaşa, Tıp Fakültesi Cad, Sakinler Sk. No:2/A, 06620 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.8956731648217</longitude>
+<latitude>39.92648741824848</latitude>
+<altitude>0</altitude>
+<range>464.3398965543467</range>
+<tilt>28.98646105964906</tilt>
+<heading>-0.001660645458045113</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_S10</styleUrl>
+<Point>
+<coordinates>32.887066,39.93322,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_40">
+<name>CarrefourSA</name>
+<visibility>0</visibility>
+<description><![CDATA[Balkiraz, Tıp Fakültesi, Gaziler Sk., 06620 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.88937481455623</longitude>
+<latitude>39.92950616986793</latitude>
+<altitude>0</altitude>
+<range>1330.309296104439</range>
+<tilt>28.99023007308092</tilt>
+<heading>-0.005703034943013643</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_S10</styleUrl>
+<Point>
+<coordinates>32.886193,39.932553,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_41">
+<name>Soykan</name>
+<visibility>0</visibility>
+<description><![CDATA[Balkiraz, Esenler Sk. No:2, 06620 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.88937481455623</longitude>
+<latitude>39.92950616986793</latitude>
+<altitude>0</altitude>
+<range>1330.309296104439</range>
+<tilt>28.99023007308092</tilt>
+<heading>-0.005703034943013643</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_S10</styleUrl>
+<Point>
+<coordinates>32.88672,39.932376,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_42">
+<name>Şok</name>
+<visibility>0</visibility>
+<description><![CDATA[ES Kİ, KONUTKENT MAH. 2432 CADDE, 886. Cd. NO:228 / 2]]></description>
+<LookAt>
+<longitude>32.88783877995132</longitude>
+<latitude>39.92737559489093</latitude>
+<altitude>0</altitude>
+<range>4115.549095216638</range>
+<tilt>29.00235233829105</tilt>
+<heading>-0.006688577351024413</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_S10</styleUrl>
+<Point>
+<coordinates>32.919266,39.911884,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_43">
+<name>Bim</name>
+<visibility>0</visibility>
+<description><![CDATA[Cengizhan, Ozan Rehberi Cd. No:6, 06480 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.88783877995132</longitude>
+<latitude>39.92737559489093</latitude>
+<altitude>0</altitude>
+<range>4115.549095216638</range>
+<tilt>29.00235233829105</tilt>
+<heading>-0.006688577351024413</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_S10</styleUrl>
+<Point>
+<coordinates>32.918723,39.9054,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_44">
+<name>Şok</name>
+<visibility>0</visibility>
+<description><![CDATA[N, GENERAL ZEKİ DOĞAN MAHALLESİ, 494. SOKAK (ESKİ, 494. Sk., Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.91323532223909</longitude>
+<latitude>39.90591726037186</latitude>
+<altitude>0</altitude>
+<range>257.2699951001314</range>
+<tilt>25.31101563285435</tilt>
+<heading>-0.0008211033130623533</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_S10</styleUrl>
+<Point>
+<coordinates>32.906151,39.914672,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_45">
+<name>A101</name>
+<visibility>0</visibility>
+<description><![CDATA[Abidinpaşa, Tıp Fakültesi Cd. No:18, 06620 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.8858719423119</longitude>
+<latitude>39.93091549239426</latitude>
+<altitude>0</altitude>
+<range>116.9096626734603</range>
+<tilt>53.41423712377665</tilt>
+<heading>0.0001639078164759312</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_S10</styleUrl>
+<Point>
+<coordinates>32.8856916666667,39.930705,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_46">
+<name>Öğütler Süpermarket</name>
+<visibility>0</visibility>
+<description><![CDATA[Abidinpaşa, Şht. Osman Sk., 06620 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.88698436069563</longitude>
+<latitude>39.93007511650216</latitude>
+<altitude>0</altitude>
+<range>440.3777045952506</range>
+<tilt>13.68198986599193</tilt>
+<heading>-0.0009284257800901118</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_S10</styleUrl>
+<Point>
+<coordinates>32.886825,39.930004,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_47">
+<name>A101</name>
+<visibility>0</visibility>
+<description><![CDATA[Aşık Veysel, Tıp Fakültesi Cd. No:58, 06620 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.88798743564757</longitude>
+<latitude>39.92995144579032</latitude>
+<altitude>0</altitude>
+<range>441.5901074855355</range>
+<tilt>13.68199244193389</tilt>
+<heading>-0.000284599404200613</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_S10</styleUrl>
+<Point>
+<coordinates>32.890732,39.928203,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_48">
+<name>Tip fakutesi Bim</name>
+<visibility>0</visibility>
+<description><![CDATA[Aşık Veysel Tıp Fakültesi Cad, Kumluca Sk. No:6, 06620 Mamak]]></description>
+<LookAt>
+<longitude>32.89288501432051</longitude>
+<latitude>39.9252845037861</latitude>
+<altitude>0</altitude>
+<range>3516.562881357834</range>
+<tilt>13.68852548464523</tilt>
+<heading>0.002861033971716267</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_S10</styleUrl>
+<Point>
+<coordinates>32.890944,39.92767,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_49">
+<name>Bim</name>
+<visibility>0</visibility>
+<description><![CDATA[Peyami Sefa Mah Dereboyu Caddesi 6/F-G, 06630 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.89288501432051</longitude>
+<latitude>39.9252845037861</latitude>
+<altitude>0</altitude>
+<range>3516.562881357834</range>
+<tilt>13.68852548464523</tilt>
+<heading>0.002861033971716267</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_S10</styleUrl>
+<Point>
+<coordinates>32.902567,39.923035,0.0</coordinates>
+</Point>
+</Placemark>
+</Folder>
+<Folder id="kml_id_Area_1.1.5.5.6">
+<name>Park</name>
+<visibility>0</visibility>
+<Placemark id="kml_50">
+<name>Gaziler Parkı</name>
+<visibility>0</visibility>
+<description><![CDATA[Balkiraz, Gaziler Sk. No:1, 06620 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.90880216344009</longitude>
+<latitude>39.91218140609198</latitude>
+<altitude>0</altitude>
+<range>1879.612240073594</range>
+<tilt>5.787477927382879</tilt>
+<heading>0.002330860230855276</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_parks</styleUrl>
+<Point>
+<coordinates>32.8859694444444,39.9319538163719,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_51">
+<name>Aşık Veysel Parkı</name>
+<visibility>0</visibility>
+<description><![CDATA[Aşık Veysel, Bağlarbaşı Cd., 06620 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.88807109146898</longitude>
+<latitude>39.93012022672958</latitude>
+<altitude>0</altitude>
+<range>1986.307386597438</range>
+<tilt>10.42813277824606</tilt>
+<heading>-0.01135052309896051</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_parks</styleUrl>
+<Point>
+<coordinates>32.8962851218013,39.9256015108716,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_52">
+<name>Mamak Belediyesi Nato Yolu Koşu Ve Dinlenme Alanı</name>
+<visibility>0</visibility>
+<description><![CDATA[General Zeki Doğan, Natoyolu Caddesı No:80, 06630 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.89102720037435</longitude>
+<latitude>39.92467282686812</latitude>
+<altitude>0</altitude>
+<range>995.802855424866</range>
+<tilt>18.17819125758551</tilt>
+<heading>-0.01015709380198935</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_parks</styleUrl>
+<Point>
+<coordinates>32.9174612753964,39.9098256676324,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_53">
+<name>General Zeki Doğan Mahallesi Koşuyolu Parkı</name>
+<visibility>0</visibility>
+<description><![CDATA[General Zeki Doğan, 557. Sk. No:10, 06630 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.91727711188432</longitude>
+<latitude>39.91082205315509</latitude>
+<altitude>0</altitude>
+<range>759.132336491608</range>
+<tilt>30.87073127780196</tilt>
+<heading>0.005381780802936264</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_parks</styleUrl>
+<Point>
+<coordinates>32.9119600116148,39.909188171306,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_54">
+<name>General Zeki Doğan Parkı</name>
+<visibility>0</visibility>
+<description><![CDATA[General Zeki Doğan, 06630 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.91785866865786</longitude>
+<latitude>39.90992762270888</latitude>
+<altitude>0</altitude>
+<range>940.7825327054828</range>
+<tilt>36.57075123493856</tilt>
+<heading>0.005120997288068333</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_parks</styleUrl>
+<Point>
+<coordinates>32.9141888888889,39.9083648877402,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_55">
+<name>Şehit Murat İltekin Parkı</name>
+<visibility>0</visibility>
+<description><![CDATA[Cengizhan, 846. Cd. No:154, 06480 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.91205249707509</longitude>
+<latitude>39.92019894060675</latitude>
+<altitude>0</altitude>
+<range>5125.364524936046</range>
+<tilt>35.97234090671841</tilt>
+<heading>0.001292624132902686</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_parks</styleUrl>
+<Point>
+<coordinates>32.9237877056536,39.9002420796953,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_56">
+<name>Kınık Parkı</name>
+<visibility>0</visibility>
+<description><![CDATA[Merkez, Mamak Merkez, Mamak, Ankara]]></description>
+<LookAt>
+<longitude>32.92282393825789</longitude>
+<latitude>39.9064086248262</latitude>
+<altitude>0</altitude>
+<range>5853.684502072402</range>
+<tilt>35.5791537964291</tilt>
+<heading>0.008148196182890803</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_parks</styleUrl>
+<Point>
+<coordinates>32.9236027712665,39.9000156863179,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_57">
+<name>Park</name>
+<visibility>0</visibility>
+<description><![CDATA[Cengizhan, 852. Sk., 06480 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.92282393825789</longitude>
+<latitude>39.9064086248262</latitude>
+<altitude>0</altitude>
+<range>5853.684502072402</range>
+<tilt>35.5791537964291</tilt>
+<heading>0.008148196182890803</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_parks</styleUrl>
+<Point>
+<coordinates>32.9214320451993,39.9013020788067,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_58">
+<name>Şht. Niyazi Eker Parkı</name>
+<visibility>0</visibility>
+<description><![CDATA[Cengizhan, 841. Sk. No:9, 06480 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.92282393825789</longitude>
+<latitude>39.9064086248262</latitude>
+<altitude>0</altitude>
+<range>5853.684502072402</range>
+<tilt>35.5791537964291</tilt>
+<heading>0.008148196182890803</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_parks</styleUrl>
+<Point>
+<coordinates>32.9249988718482,39.9019459679216,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_59">
+<name>Mamak Belediyesi Fahri Korutürk Kapalı Pazar ve Spor Alanı</name>
+<visibility>0</visibility>
+<description><![CDATA[Fahri Korutürk, Ozan Rehberi Cd. No:5, 06480 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.92282393825789</longitude>
+<latitude>39.9064086248262</latitude>
+<altitude>0</altitude>
+<range>5853.684502072402</range>
+<tilt>35.5791537964291</tilt>
+<heading>0.008148196182890803</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_parks</styleUrl>
+<Point>
+<coordinates>32.9186793453758,39.9058271376982,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_60">
+<name>Şehit Polis Murat Yatarkalkmaz Parkı</name>
+<visibility>0</visibility>
+<description><![CDATA[Fahri Korutürk, Ozan Rehberi Cd., 06480 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.91615797165808</longitude>
+<latitude>39.90991841599603</latitude>
+<altitude>0</altitude>
+<range>4304.544167525655</range>
+<tilt>34.55859806799133</tilt>
+<heading>0.003733387639434908</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_parks</styleUrl>
+<Point>
+<coordinates>32.919762603339,39.9065085713456,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_61">
+<name>Fahri Korutürk Parkı</name>
+<visibility>0</visibility>
+<description><![CDATA[Fahri Korutürk, Ozan Rehberi Cd. No:29, 06480 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.91615796963647</longitude>
+<latitude>39.90991842206686</latitude>
+<altitude>0</altitude>
+<range>4304.544635641489</range>
+<tilt>34.55859807406205</tilt>
+<heading>0.003733384090422501</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_parks</styleUrl>
+<Point>
+<coordinates>32.9224129564271,39.9074455861417,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_62">
+<name>Muhtar Arif Celep Parkı</name>
+<visibility>0</visibility>
+<description><![CDATA[Şirintepe, 06480 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.91615796963647</longitude>
+<latitude>39.90991842206686</latitude>
+<altitude>0</altitude>
+<range>4304.544635641489</range>
+<tilt>34.55859807406205</tilt>
+<heading>0.003733384090422501</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_parks</styleUrl>
+<Point>
+<coordinates>32.9213141173749,39.9120992714455,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_63">
+<name>Hayat Parkı</name>
+<visibility>0</visibility>
+<description><![CDATA[Şahintepe, Park İçi Yolu, 06470 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.91615796963647</longitude>
+<latitude>39.90991842206686</latitude>
+<altitude>0</altitude>
+<range>4304.544635641489</range>
+<tilt>34.55859807406205</tilt>
+<heading>0.003733384090422501</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_parks</styleUrl>
+<Point>
+<coordinates>32.9194624265722,39.9126459765234,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_64">
+<name>Çocuk Parkı</name>
+<visibility>0</visibility>
+<description><![CDATA[Şahintepe, 666. Sk., 06470 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.91615796963647</longitude>
+<latitude>39.90991842206686</latitude>
+<altitude>0</altitude>
+<range>4304.544635641489</range>
+<tilt>34.55859807406205</tilt>
+<heading>0.003733384090422501</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_parks</styleUrl>
+<Point>
+<coordinates>32.9153601320467,39.9143332952258,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_65">
+<name>Çocuk Parkı</name>
+<visibility>0</visibility>
+<description><![CDATA[Şahintepe, 679. Sk., 06470 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.9079702421909</longitude>
+<latitude>39.91245916995036</latitude>
+<altitude>0</altitude>
+<range>2538.374377670603</range>
+<tilt>32.847633774086</tilt>
+<heading>-0.001945986809654067</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_parks</styleUrl>
+<Point>
+<coordinates>32.9176444444444,39.9158322347768,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_66">
+<name>Güneş Parkı</name>
+<visibility>0</visibility>
+<description><![CDATA[Şahintepe, 683. Cad., 06470 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.91280431304481</longitude>
+<latitude>39.91431427660871</latitude>
+<altitude>0</altitude>
+<range>1666.055361925911</range>
+<tilt>31.24151045577759</tilt>
+<heading>0.0006093503355019035</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_parks</styleUrl>
+<Point>
+<coordinates>32.9175694444444,39.9160176763496,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_67">
+<name>Hacı Bektaş Veli Parkı</name>
+<visibility>0</visibility>
+<description><![CDATA[Şahintepe, 650. Sk. No:1, 06470 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.91280431304481</longitude>
+<latitude>39.91431427660871</latitude>
+<altitude>0</altitude>
+<range>1666.055361925911</range>
+<tilt>31.24151045577759</tilt>
+<heading>0.0006093503355019035</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_parks</styleUrl>
+<Point>
+<coordinates>32.9120988258825,39.9172000021297,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_68">
+<name>Güvendik Parkı</name>
+<visibility>0</visibility>
+<description><![CDATA[Şahintepe, 650. Sk., 06470 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.90996820340698</longitude>
+<latitude>39.916239512918</latitude>
+<altitude>0</altitude>
+<range>2578.960573395752</range>
+<tilt>28.50741770095922</tilt>
+<heading>-0.002062604073849897</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_parks</styleUrl>
+<Point>
+<coordinates>32.9132861111111,39.9182724649844,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_69">
+<name>Şahintepe Parkı</name>
+<visibility>0</visibility>
+<description><![CDATA[Şahintepe, 642. Sk. No:4, 06470 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.90996820340698</longitude>
+<latitude>39.916239512918</latitude>
+<altitude>0</altitude>
+<range>2578.960573395752</range>
+<tilt>28.50741770095922</tilt>
+<heading>-0.002062604073849897</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_parks</styleUrl>
+<Point>
+<coordinates>32.9105717681142,39.9206957534031,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_70">
+<name>Feyzullah Çınar Parkı</name>
+<visibility>0</visibility>
+<description><![CDATA[Tuzluçayır, Abidin Aktaş Sk. No:11, 06620 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.90531853837846</longitude>
+<latitude>39.91742893260898</latitude>
+<altitude>0</altitude>
+<range>1904.913545965476</range>
+<tilt>27.1712230005445</tilt>
+<heading>-0.005720266795479054</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_parks</styleUrl>
+<Point>
+<coordinates>32.9048152211227,39.9245738715707,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_71">
+<name>77. Yıl Cumhuriyet Parkı</name>
+<visibility>0</visibility>
+<description><![CDATA[Saimekadın, Asım Gündüz Cd. No:51, 06620 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.90531853837846</longitude>
+<latitude>39.91742893260898</latitude>
+<altitude>0</altitude>
+<range>1904.913545965476</range>
+<tilt>27.1712230005445</tilt>
+<heading>-0.005720266795479054</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_parks</styleUrl>
+<Point>
+<coordinates>32.8956784809178,39.931587369802,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_72">
+<name>Şehit Er Cengiz Aydın Parkı</name>
+<visibility>0</visibility>
+<description><![CDATA[Saimekadın, Bildik Sk. No:11, 06620 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.90170834239521</longitude>
+<latitude>39.9195918381753</latitude>
+<altitude>0</altitude>
+<range>1308.486809762817</range>
+<tilt>24.59608732789009</tilt>
+<heading>-0.009838396844201984</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_parks</styleUrl>
+<Point>
+<coordinates>32.8924733801635,39.9297143242259,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_73">
+<name>Dinlenme Parkı</name>
+<visibility>0</visibility>
+<description><![CDATA[Fahri Korutürk, 06480 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.90170834239521</longitude>
+<latitude>39.9195918381753</latitude>
+<altitude>0</altitude>
+<range>1308.486809762817</range>
+<tilt>24.59608732789009</tilt>
+<heading>-0.009838396844201984</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_parks</styleUrl>
+<Point>
+<coordinates>32.9239861111111,39.9085518293376,0.0</coordinates>
+</Point>
+</Placemark>
+</Folder>
+<Folder id="kml_id_Area_1.1.5.6.9">
+<name>Bus Stop</name>
+<visibility>0</visibility>
+<open>1</open>
+<Placemark id="kml_74">
+<name>Sağlık Ocağı
+Durağı</name>
+<visibility>0</visibility>
+<description><![CDATA[General Zeki Doğan, 06630 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.911995624204</longitude>
+<latitude>39.91973632408988</latitude>
+<altitude>0</altitude>
+<range>7726.790108854706</range>
+<tilt>45.0111329427697</tilt>
+<heading>0.004174497983263943</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_bus</styleUrl>
+<Point>
+<coordinates>32.9045809817386,39.922180157452,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_75">
+<name>Akşemseddin Camii
+Durağı</name>
+<visibility>0</visibility>
+<description><![CDATA[General Zeki Doğan, 06630 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.911995624204</longitude>
+<latitude>39.91973632408988</latitude>
+<altitude>0</altitude>
+<range>7726.790108854706</range>
+<tilt>45.0111329427697</tilt>
+<heading>0.004174497983263943</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_bus0</styleUrl>
+<Point>
+<coordinates>32.9065714678728,39.919894295255,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_76">
+<name>Hacı Bektaş-i Veli Parkı
+Durağı</name>
+<visibility>0</visibility>
+<description><![CDATA[General Zeki Doğan, 06630 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.911995624204</longitude>
+<latitude>39.91973632408988</latitude>
+<altitude>0</altitude>
+<range>7726.790108854706</range>
+<tilt>45.0111329427697</tilt>
+<heading>0.004174497983263943</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_bus</styleUrl>
+<Point>
+<coordinates>32.9112586441039,39.9170219049021,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_77">
+<name>Tek Mezar
+Durağı</name>
+<visibility>0</visibility>
+<description><![CDATA[General Zeki Doğan, 06630 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.911995624204</longitude>
+<latitude>39.91973632408988</latitude>
+<altitude>0</altitude>
+<range>7726.790108854706</range>
+<tilt>45.0111329427697</tilt>
+<heading>0.004174497983263943</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_bus</styleUrl>
+<Point>
+<coordinates>32.91265,39.9145114795749,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_78">
+<name>Şahintepe Ptt
+Durağı</name>
+<visibility>0</visibility>
+<description><![CDATA[General Zeki Doğan, 06630 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.911995624204</longitude>
+<latitude>39.91973632408988</latitude>
+<altitude>0</altitude>
+<range>7726.790108854706</range>
+<tilt>45.0111329427697</tilt>
+<heading>0.004174497983263943</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_bus</styleUrl>
+<Point>
+<coordinates>32.9145201383692,39.9122305921473,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_79">
+<name>Açıkalın
+Durağı</name>
+<visibility>0</visibility>
+<description><![CDATA[General Zeki Doğan, 06630 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.92802616332956</longitude>
+<latitude>39.91495331554172</latitude>
+<altitude>0</altitude>
+<range>6175.431024847182</range>
+<tilt>43.33668391499702</tilt>
+<heading>0.01451934536918888</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_bus</styleUrl>
+<Point>
+<coordinates>32.9179305555556,39.9098210373123,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_80">
+<name>Natoyolu Tepe
+Durağı</name>
+<visibility>0</visibility>
+<description><![CDATA[Ege, 06270 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.91521579987971</longitude>
+<latitude>39.91153732203126</latitude>
+<altitude>0</altitude>
+<range>5695.792718519992</range>
+<tilt>54.12009657852786</tilt>
+<heading>-27.75168343416673</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_bus</styleUrl>
+<Point>
+<coordinates>32.9181696178365,39.9023918780539,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_81">
+<name>Yavuz Selim Polis Karakolu
+Durağı</name>
+<visibility>0</visibility>
+<description><![CDATA[Ege, 06270 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.91521579987971</longitude>
+<latitude>39.91153732203126</latitude>
+<altitude>0</altitude>
+<range>5695.792718519992</range>
+<tilt>54.12009657852786</tilt>
+<heading>-27.75168343416673</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_bus</styleUrl>
+<Point>
+<coordinates>32.9196897129766,39.8995809293154,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_82">
+<name>Cengizhan Mahallesi
+Durağı</name>
+<visibility>0</visibility>
+<description><![CDATA[Ege, 06270 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.91521579987971</longitude>
+<latitude>39.91153732203126</latitude>
+<altitude>0</altitude>
+<range>5695.792718519992</range>
+<tilt>54.12009657852786</tilt>
+<heading>-27.75168343416673</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_bus</styleUrl>
+<Point>
+<coordinates>32.9208055555556,39.8971816949719,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_83">
+<name>Mamak İlçe Emniyet Müdürlüğü
+Durağı</name>
+<visibility>0</visibility>
+<description><![CDATA[Saimekadın, 06620 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.91850179943613</longitude>
+<latitude>39.91000759461016</latitude>
+<altitude>0</altitude>
+<range>5677.396177533013</range>
+<tilt>54.11996270986134</tilt>
+<heading>-27.74957548972884</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_bus</styleUrl>
+<Point>
+<coordinates>32.8953293505509,39.926700060506,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_84">
+<name>Abidinpaşa Meslek Lisesi
+Durağı</name>
+<visibility>0</visibility>
+<description><![CDATA[Saimekadın, 06620 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.91850179943613</longitude>
+<latitude>39.91000759461016</latitude>
+<altitude>0</altitude>
+<range>5677.396177533013</range>
+<tilt>54.11996270986134</tilt>
+<heading>-27.74957548972884</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_bus</styleUrl>
+<Point>
+<coordinates>32.8920606630591,39.9280202650473,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_85">
+<name>Abidinpaşa Merkez Cami
+Durağı</name>
+<visibility>0</visibility>
+<description><![CDATA[Balkiraz, 06620 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.91850179943613</longitude>
+<latitude>39.91000759461016</latitude>
+<altitude>0</altitude>
+<range>5677.396177533013</range>
+<tilt>54.11996270986134</tilt>
+<heading>-27.74957548972884</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_bus</styleUrl>
+<Point>
+<coordinates>32.8894862245401,39.9293526600518,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_86">
+<name>Abidin Paşa
+Durağı</name>
+<visibility>0</visibility>
+<description><![CDATA[Balkiraz, 06620 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.91850179943613</longitude>
+<latitude>39.91000759461016</latitude>
+<altitude>0</altitude>
+<range>5677.396177533013</range>
+<tilt>54.11996270986134</tilt>
+<heading>-27.74957548972884</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_bus</styleUrl>
+<Point>
+<coordinates>32.8865996671191,39.930510261433,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_87">
+<name>Abidin Paşa
+Durağı</name>
+<visibility>0</visibility>
+<description><![CDATA[Abidinpaşa, 06620 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.91850179943613</longitude>
+<latitude>39.91000759461016</latitude>
+<altitude>0</altitude>
+<range>5677.396177533013</range>
+<tilt>54.11996270986134</tilt>
+<heading>-27.74957548972884</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_bus</styleUrl>
+<Point>
+<coordinates>32.886459993496,39.9303809058688,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_88">
+<name>Abidinpaşa Merkez Cami
+Durağı</name>
+<visibility>0</visibility>
+<description><![CDATA[Abidinpaşa, 06620 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.91850179943613</longitude>
+<latitude>39.91000759461016</latitude>
+<altitude>0</altitude>
+<range>5677.396177533013</range>
+<tilt>54.11996270986134</tilt>
+<heading>-27.74957548972884</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_bus</styleUrl>
+<Point>
+<coordinates>32.8893694444444,39.9291299605158,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_89">
+<name>Abidinpaşa Mesleki Ve Teknik Anadolu Lisesi
+Durağı</name>
+<visibility>0</visibility>
+<description><![CDATA[Aşık Veysel, 06620 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.91850179943613</longitude>
+<latitude>39.91000759461016</latitude>
+<altitude>0</altitude>
+<range>5677.396177533013</range>
+<tilt>54.11996270986134</tilt>
+<heading>-27.74957548972884</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_bus</styleUrl>
+<Point>
+<coordinates>32.8918472222222,39.9278599864048,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_90">
+<name>Mamak İlçe Emniyet Müdürlüğü
+Durağı</name>
+<visibility>0</visibility>
+<description><![CDATA[Aşık Veysel, 06620 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.91850179943613</longitude>
+<latitude>39.91000759461016</latitude>
+<altitude>0</altitude>
+<range>5677.396177533013</range>
+<tilt>54.11996270986134</tilt>
+<heading>-27.74957548972884</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_bus</styleUrl>
+<Point>
+<coordinates>32.8951891244786,39.9264989979466,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_91">
+<name>Aşık Veysel Parkı
+Durağı</name>
+<visibility>0</visibility>
+<description><![CDATA[Aşık Veysel, 06620 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.91850179943613</longitude>
+<latitude>39.91000759461016</latitude>
+<altitude>0</altitude>
+<range>5677.396177533013</range>
+<tilt>54.11996270986134</tilt>
+<heading>-27.74957548972884</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_bus</styleUrl>
+<Point>
+<coordinates>32.8986083333333,39.9249901495793,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_92">
+<name>Tuzluçayır
+Durağı</name>
+<visibility>0</visibility>
+<description><![CDATA[Aşık Veysel, 06620 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.91850179943613</longitude>
+<latitude>39.91000759461016</latitude>
+<altitude>0</altitude>
+<range>5677.396177533013</range>
+<tilt>54.11996270986134</tilt>
+<heading>-27.74957548972884</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_bus</styleUrl>
+<Point>
+<coordinates>32.90275,39.9250150982486,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_93">
+<name>Dereboyu Son Durak</name>
+<visibility>0</visibility>
+<description><![CDATA[Aşık Veysel, 06620 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.91850179943613</longitude>
+<latitude>39.91000759461016</latitude>
+<altitude>0</altitude>
+<range>5677.396177533013</range>
+<tilt>54.11996270986134</tilt>
+<heading>-27.74957548972884</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_bus</styleUrl>
+<Point>
+<coordinates>32.9026194444444,39.9234393964917,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_94">
+<name>Dereboyu Cd. Son Durak</name>
+<visibility>0</visibility>
+<description><![CDATA[General Zeki Doğan, 06630 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.91850179943613</longitude>
+<latitude>39.91000759461016</latitude>
+<altitude>0</altitude>
+<range>5677.396177533013</range>
+<tilt>54.11996270986134</tilt>
+<heading>-27.74957548972884</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_bus</styleUrl>
+<Point>
+<coordinates>32.9027690151394,39.9233993431148,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_95">
+<name>Cengizhan Mahallesi
+Durağı</name>
+<visibility>0</visibility>
+<description><![CDATA[Cengizhan, 06480 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.91850179943613</longitude>
+<latitude>39.91000759461016</latitude>
+<altitude>0</altitude>
+<range>5677.396177533013</range>
+<tilt>54.11996270986134</tilt>
+<heading>-27.74957548972884</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_bus</styleUrl>
+<Point>
+<coordinates>32.921200677633,39.8973015002125,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_96">
+<name>Cengizhan Mh.Natoyolu Cd. Durağı</name>
+<visibility>0</visibility>
+<description><![CDATA[Cengizhan, 06480 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.91850179943613</longitude>
+<latitude>39.91000759461016</latitude>
+<altitude>0</altitude>
+<range>5677.396177533013</range>
+<tilt>54.11996270986134</tilt>
+<heading>-27.74957548972884</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_bus</styleUrl>
+<Point>
+<coordinates>32.9199194444444,39.8999215227028,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_97">
+<name>Natoyolu Tepe
+Durağı</name>
+<visibility>0</visibility>
+<description><![CDATA[Cengizhan, 06480 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.91850179943613</longitude>
+<latitude>39.91000759461016</latitude>
+<altitude>0</altitude>
+<range>5677.396177533013</range>
+<tilt>54.11996270986134</tilt>
+<heading>-27.74957548972884</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_bus</styleUrl>
+<Point>
+<coordinates>32.9185805555556,39.9025294650229,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_98">
+<name>Nato Yolu Kömür
+Durağı</name>
+<visibility>0</visibility>
+<description><![CDATA[Fahri Korutürk, 06480 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.91850179943613</longitude>
+<latitude>39.91000759461016</latitude>
+<altitude>0</altitude>
+<range>5677.396177533013</range>
+<tilt>54.11996270986134</tilt>
+<heading>-27.74957548972884</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_bus</styleUrl>
+<Point>
+<coordinates>32.9174751722306,39.9063079462712,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_99">
+<name>Açıkalın
+Durağı</name>
+<visibility>0</visibility>
+<description><![CDATA[Fahri Korutürk, 06480 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.90555627128446</longitude>
+<latitude>39.90767270625493</latitude>
+<altitude>0</altitude>
+<range>3740.479043212425</range>
+<tilt>50.22005517520434</tilt>
+<heading>-27.75891110507775</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_bus</styleUrl>
+<Point>
+<coordinates>32.9184299979367,39.9101415224716,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_100">
+<name>Şahintepe Ptt
+Durağı</name>
+<visibility>0</visibility>
+<description><![CDATA[Şahintepe, 06470 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.90555627128446</longitude>
+<latitude>39.90767270625493</latitude>
+<altitude>0</altitude>
+<range>3740.479043212425</range>
+<tilt>50.22005517520434</tilt>
+<heading>-27.75891110507775</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_bus</styleUrl>
+<Point>
+<coordinates>32.9147814837837,39.912443324647,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_101">
+<name>Tek Mezar
+Durağı</name>
+<visibility>0</visibility>
+<description><![CDATA[Şahintepe, 06470 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.90555627128446</longitude>
+<latitude>39.90767270625493</latitude>
+<altitude>0</altitude>
+<range>3740.479043212425</range>
+<tilt>50.22005517520434</tilt>
+<heading>-27.75891110507775</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_bus</styleUrl>
+<Point>
+<coordinates>32.9130901444038,39.9143195296494,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_102">
+<name>Hacı Bektaş-i Veli Parkı</name>
+<visibility>0</visibility>
+<description><![CDATA[Şahintepe, 06470 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.90555627128446</longitude>
+<latitude>39.90767270625493</latitude>
+<altitude>0</altitude>
+<range>3740.479043212425</range>
+<tilt>50.22005517520434</tilt>
+<heading>-27.75891110507775</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_bus</styleUrl>
+<Point>
+<coordinates>32.9116808818617,39.917051522315,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_103">
+<name>Akşemsettin Camii
+Durağı</name>
+<visibility>0</visibility>
+<description><![CDATA[Tuzluçayır, 06620 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.90555627128446</longitude>
+<latitude>39.90767270625493</latitude>
+<altitude>0</altitude>
+<range>3740.479043212425</range>
+<tilt>50.22005517520434</tilt>
+<heading>-27.75891110507775</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_bus</styleUrl>
+<Point>
+<coordinates>32.9074665390406,39.9198156079773,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_104">
+<name>Sağlık Ocağı
+Durağı</name>
+<visibility>0</visibility>
+<description><![CDATA[Tuzluçayır, 06620 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.90555627128446</longitude>
+<latitude>39.90767270625493</latitude>
+<altitude>0</altitude>
+<range>3740.479043212425</range>
+<tilt>50.22005517520434</tilt>
+<heading>-27.75891110507775</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_bus</styleUrl>
+<Point>
+<coordinates>32.9047792182007,39.9225292350771,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_105">
+<name>Tuzluçayır
+Durağı</name>
+<visibility>0</visibility>
+<description><![CDATA[Kartaltepe, 06620 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.89553406370342</longitude>
+<latitude>39.90778079473416</latitude>
+<altitude>0</altitude>
+<range>2541.236192404408</range>
+<tilt>46.77838451748757</tilt>
+<heading>-27.76735976962383</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_bus</styleUrl>
+<Point>
+<coordinates>32.9020595912137,39.9252010318616,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_106">
+<name>Tıp Fakültesi Cd. Durağı</name>
+<visibility>0</visibility>
+<description><![CDATA[Kartaltepe, 06620 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.89553406370342</longitude>
+<latitude>39.90778079473416</latitude>
+<altitude>0</altitude>
+<range>2541.236192404408</range>
+<tilt>46.77838451748757</tilt>
+<heading>-27.76735976962383</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_bus</styleUrl>
+<Point>
+<coordinates>32.8972611111111,39.9257303547771,0.0</coordinates>
+</Point>
+</Placemark>
+</Folder>
+<Folder id="kml_id_Area_1.1.5.7.6">
+<name>Hospitals &amp; Health Care Centers</name>
+<visibility>0</visibility>
+<open>1</open>
+<Placemark id="kml_107">
+<name>Abidin Paşa Merkez Sağlık Ocağı</name>
+<visibility>0</visibility>
+<description><![CDATA[Abidinpaşa, Abidinpaşa Mah., Okul Sok. No:25, Ankara]]></description>
+<Camera>
+<longitude>32.9157842360403</longitude>
+<latitude>39.92222009123665</latitude>
+<altitude>6096.744506620331</altitude>
+<heading>-12.89376338806045</heading>
+<tilt>0.04249963156027692</tilt>
+<roll>-3.799434542851973</roll>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</Camera>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<coordinates>32.8888928800349,39.9271830510758,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_108">
+<name>Doktor Emre Demir Aile Sağlık Merkezi</name>
+<visibility>0</visibility>
+<description><![CDATA[Abidinpaşa, Okullar Cd. AbidinPaşa D:No: 25, 06020 Mamak/Ankara]]></description>
+<Camera>
+<longitude>32.9157842360403</longitude>
+<latitude>39.92222009123665</latitude>
+<altitude>6096.744506620331</altitude>
+<heading>-12.89376338806045</heading>
+<tilt>0.04249963156027692</tilt>
+<roll>-3.799434542851973</roll>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</Camera>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<coordinates>32.8887727953762,39.9272493683874,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_109">
+<name>Derbent Sağlık Ocağı</name>
+<visibility>0</visibility>
+<description><![CDATA[Abidinpaşa, Araplar 1. Sok. No:4, 06620 Mamak/Ankara]]></description>
+<Camera>
+<longitude>32.9157842360403</longitude>
+<latitude>39.92222009123665</latitude>
+<altitude>6096.744506620331</altitude>
+<heading>-12.89376338806045</heading>
+<tilt>0.04249963156027692</tilt>
+<roll>-3.799434542851973</roll>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</Camera>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<coordinates>32.897205693529,39.9265055555556,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_110">
+<name>Veli Gündüz Şahin Aile Sağliğı Merkezi</name>
+<visibility>0</visibility>
+<description><![CDATA[General Zeki Doğan, Natoyolu Caddesı No:16, 06630 Mamak/Ankara]]></description>
+<Camera>
+<longitude>32.9157842360403</longitude>
+<latitude>39.92222009123665</latitude>
+<altitude>6096.744506620331</altitude>
+<heading>-12.89376338806045</heading>
+<tilt>0.04249963156027692</tilt>
+<roll>-3.799434542851973</roll>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</Camera>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<coordinates>32.9046907511994,39.9221373592623,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_111">
+<name>Özel İlgin Tıp Merkezi</name>
+<visibility>0</visibility>
+<description><![CDATA[Akdere, 44/B, Mehmet Ali Altın Cd, 06630 Mamak/Ankara]]></description>
+<Camera>
+<longitude>32.9157842360403</longitude>
+<latitude>39.92222009123665</latitude>
+<altitude>6096.744506620331</altitude>
+<heading>-12.89376338806045</heading>
+<tilt>0.04249963156027692</tilt>
+<roll>-3.799434542851973</roll>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</Camera>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<coordinates>32.8863534720826,39.9220103002708,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_112">
+<name>Özel Natomed Hastanesi</name>
+<visibility>0</visibility>
+<description><![CDATA[Tuzluçayır Mah, Natoyolu Caddesı No:49, 06620 Mamak/Ankara]]></description>
+<Camera>
+<longitude>32.9157842360403</longitude>
+<latitude>39.92222009123665</latitude>
+<altitude>6096.744506620331</altitude>
+<heading>-12.89376338806045</heading>
+<tilt>0.04249963156027692</tilt>
+<roll>-3.799434542851973</roll>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</Camera>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<coordinates>32.9086536279058,39.9200553762195,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_113">
+<name>Mamak Ege 2 Aile Sagligi Merkezi</name>
+<visibility>0</visibility>
+<description><![CDATA[Ege, 800. Sk. No:18, 06270 Mamak/Ankara]]></description>
+<Camera>
+<longitude>32.9157842360403</longitude>
+<latitude>39.92222009123665</latitude>
+<altitude>6096.744506620331</altitude>
+<heading>-12.89376338806045</heading>
+<tilt>0.04249963156027692</tilt>
+<roll>-3.799434542851973</roll>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</Camera>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<coordinates>32.916648812564,39.9020431140922,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_114">
+<name>60. Yıl Aile Sağlığı Merkez</name>
+<visibility>0</visibility>
+<description><![CDATA[General Zeki Doğan, 737. Sk. No:1, 06630 Mamak/Ankara]]></description>
+<Camera>
+<longitude>32.92128799076784</longitude>
+<latitude>39.91546392700413</latitude>
+<altitude>6060.763316134726</altitude>
+<heading>-12.89023425381707</heading>
+<tilt>0.04249963156027692</tilt>
+<roll>-3.799434542735116</roll>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</Camera>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<coordinates>32.9115899458867,39.9068166666667,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_115">
+<name>General Zeki Doğan Aile Sağlık Merkezi</name>
+<visibility>0</visibility>
+<description><![CDATA[General Zeki Doğan, Natoyolu Caddesı No:28, 06630 Mamak/Ankara]]></description>
+<Camera>
+<longitude>32.92128799076784</longitude>
+<latitude>39.91546392700413</latitude>
+<altitude>6060.763316134726</altitude>
+<heading>-12.89023425381707</heading>
+<tilt>0.04249963156027692</tilt>
+<roll>-3.799434542735116</roll>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</Camera>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<coordinates>32.9056110321636,39.9204694444444,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_116">
+<name>Jinekolojik Onkoloji</name>
+<visibility>0</visibility>
+<description><![CDATA[Balkiraz, Tıp Fakültesi Cd. No:47, 06620 Mamak/Ankara]]></description>
+<Camera>
+<longitude>32.92128799076784</longitude>
+<latitude>39.91546392700413</latitude>
+<altitude>6060.763316134726</altitude>
+<heading>-12.89023425381707</heading>
+<tilt>0.04249963156027692</tilt>
+<roll>-3.799434542735116</roll>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</Camera>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<coordinates>32.8859364352952,39.9323983310039,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_117">
+<name>ANKARA ÜNİVERSİTESİ TIP FAKÜLTESİ CEBECİ HASTANESİ BAŞHEKİMLİĞİ</name>
+<visibility>0</visibility>
+<description><![CDATA[Balkiraz, 21, Tıp Fakültesi Cd., 06620 Mamak 39.93316341392861, 32.883483296296674]]></description>
+<Camera>
+<longitude>32.92128799076784</longitude>
+<latitude>39.91546392700413</latitude>
+<altitude>6060.763316134726</altitude>
+<heading>-12.89023425381707</heading>
+<tilt>0.04249963156027692</tilt>
+<roll>-3.799434542735116</roll>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</Camera>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<coordinates>32.8834832962967,39.9331634139286,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_118">
+<name>Ankara Üniversitesi Tıp Fakültesi Kadın Hastalıkları Abd Hastanesi</name>
+<visibility>0</visibility>
+<description><![CDATA[Balkiraz, AÜ Tıp Fakültesi Hst., 06620 Mamak/Ankara]]></description>
+<Camera>
+<longitude>32.92128799076784</longitude>
+<latitude>39.91546392700413</latitude>
+<altitude>6060.763316134726</altitude>
+<heading>-12.89023425381707</heading>
+<tilt>0.04249963156027692</tilt>
+<roll>-3.799434542735116</roll>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</Camera>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<coordinates>32.8854218818823,39.9326916666667,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_119">
+<name>Ankara Üniversitesi Tıp Fakültesi Çocuk Sağlığı Ve Hastalıkları Hastanesi</name>
+<visibility>0</visibility>
+<description><![CDATA[Balkiraz, Gaziler Sk. No:3, 06620 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.88449470504519</longitude>
+<latitude>39.93216506845</latitude>
+<altitude>0</altitude>
+<range>1286.690374085273</range>
+<tilt>11.69560836099026</tilt>
+<heading>-9.12773561179298</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<coordinates>32.8846934676676,39.93216506845,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_120">
+<name>Cebeci Hastanesi</name>
+<visibility>0</visibility>
+<description><![CDATA[Balkiraz, AÜ Tıp Fakültesi Hst., 06620 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.88449470504519</longitude>
+<latitude>39.93216506845</latitude>
+<altitude>0</altitude>
+<range>1286.690374085273</range>
+<tilt>11.69560836099026</tilt>
+<heading>-9.12773561179298</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<coordinates>32.8853328972236,39.9341055555555,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_121">
+<name>Cebeci Çocuk Hastanesi</name>
+<visibility>0</visibility>
+<description><![CDATA[Balkiraz, AÜ Tıp Fakültesi Hst., 06620 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.88449470504519</longitude>
+<latitude>39.93216506845</latitude>
+<altitude>0</altitude>
+<range>1286.690374085273</range>
+<tilt>11.69560836099026</tilt>
+<heading>-9.12773561179298</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<coordinates>32.8860558254957,39.9337861111111,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_122">
+<name>Ankara Üniversitesi Çocuk Hastanesi</name>
+<visibility>0</visibility>
+<description><![CDATA[Balkiraz, 06620 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.88449470504519</longitude>
+<latitude>39.93216506845</latitude>
+<altitude>0</altitude>
+<range>1286.690374085273</range>
+<tilt>11.69560836099026</tilt>
+<heading>-9.12773561179298</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<coordinates>32.8857171432475,39.9337527777778,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_123">
+<name>Ankara Üniversitesi Cebeci Yetişkin Psikiyatri</name>
+<visibility>0</visibility>
+<description><![CDATA[Balkiraz, AÜ Tıp Fakültesi Hst., 06620 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.88449470504519</longitude>
+<latitude>39.93216506845</latitude>
+<altitude>0</altitude>
+<range>1286.690374085273</range>
+<tilt>11.69560836099026</tilt>
+<heading>-9.12773561179298</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<coordinates>32.8860074776246,39.9345888888889,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_124">
+<name>Ankara Üniversitesi Tıp Fakültesi Göğüs Hastalıkları Hastanesi</name>
+<visibility>0</visibility>
+<description><![CDATA[Balkiraz, 06620 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.88449470504519</longitude>
+<latitude>39.93216506845</latitude>
+<altitude>0</altitude>
+<range>1286.690374085273</range>
+<tilt>11.69560836099026</tilt>
+<heading>-9.12773561179298</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<coordinates>32.8875563254958,39.9347833333333,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_125">
+<name>Tuzluçayır Aile Sağlığı Merkez</name>
+<visibility>0</visibility>
+<description><![CDATA[Saimekadın, Asım Gündüz Cd. No:3, 06620 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.88449470504519</longitude>
+<latitude>39.93216506845</latitude>
+<altitude>0</altitude>
+<range>1286.690374085273</range>
+<tilt>11.69560836099026</tilt>
+<heading>-9.12773561179298</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<coordinates>32.8966487628464,39.9273527777778,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_126">
+<name>T.C. Sağlık Bakanlığı CENGİZHAN AİLE SAĞLIĞI MERKEZİ</name>
+<visibility>0</visibility>
+<description><![CDATA[Cengizhan, Natoyolu Caddesı No:403, 06480 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.89082847216451</longitude>
+<latitude>39.92949453547629</latitude>
+<altitude>0</altitude>
+<range>1800.67844268325</range>
+<tilt>11.69654399605402</tilt>
+<heading>-9.123670138286842</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<coordinates>32.9210443892703,39.9004332482016,0.0</coordinates>
+</Point>
+</Placemark>
+</Folder>
+<Folder id="kml_id_Area_1.1.5.8.6">
+<name>Mall</name>
+<visibility>0</visibility>
+<Placemark id="kml_127">
+<name>Nata Vega Outlet AVM</name>
+<visibility>0</visibility>
+<description><![CDATA[Akşemsettin, 2308 Cadde 1/a, 06480 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.9059105397253</longitude>
+<latitude>39.91544538405388</latitude>
+<altitude>0</altitude>
+<range>7232.115355854243</range>
+<tilt>45.26701975341144</tilt>
+<heading>4.70945140417438e-05</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#m_ylw-pushpin0</styleUrl>
+<Point>
+<coordinates>32.9341382726054,39.8873601307706,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_128">
+<name>Anatolium Ankara AVM</name>
+<visibility>0</visibility>
+<description><![CDATA[Akşemsettin, 215/B, Doğukent Cd., 06480 Mamak/Ankara]]></description>
+<LookAt>
+<longitude>32.92911408622462</longitude>
+<latitude>39.88775952667346</latitude>
+<altitude>0</altitude>
+<range>7324.98386053694</range>
+<tilt>44.99996496457623</tilt>
+<heading>0.01622732828564623</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#m_ylw-pushpin0</styleUrl>
+<Point>
+<coordinates>32.9321285982488,39.8888197328311,0.0</coordinates>
+</Point>
+</Placemark>
+</Folder>
+<Folder id="kml_id_Area_1.1.5.9.6">
+<name>Underground</name>
+<visibility>0</visibility>
+<Placemark id="kml_129">
+<name>Ankaray Dikimevi İstasyonu</name>
+<visibility>0</visibility>
+<description><![CDATA[Cebeci, Cemal Gürsel Cd., 06590 Çankaya/Ankara]]></description>
+<LookAt>
+<longitude>32.93246115957366</longitude>
+<latitude>39.88846661034086</latitude>
+<altitude>0</altitude>
+<range>1855.060160720517</range>
+<tilt>45.00542982291281</tilt>
+<heading>-0.0004310484424847622</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_bus1</styleUrl>
+<Point>
+<coordinates>32.877662253451,39.9323801857509,0.0</coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_130">
+<name>Kurtuluş İstasyonu</name>
+<visibility>0</visibility>
+<description><![CDATA[Çamlıtepe, Cemal Gürsel Cd., 06590 Çankaya/Ankara]]></description>
+<LookAt>
+<longitude>32.93246115957366</longitude>
+<latitude>39.88846661034086</latitude>
+<altitude>0</altitude>
+<range>1855.060160720517</range>
+<tilt>45.00542982291281</tilt>
+<heading>-0.0004310484424847622</heading>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+</LookAt>
+<styleUrl>#msn_bus1</styleUrl>
+<Point>
+<coordinates>32.8690588371992,39.9283492862941,0.0</coordinates>
+</Point>
+</Placemark>
+</Folder>
+</Document></kml>

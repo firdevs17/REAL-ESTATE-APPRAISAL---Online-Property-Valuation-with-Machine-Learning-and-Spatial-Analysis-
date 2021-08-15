@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Hospitals .kml</name>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hospitals.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hospitals.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>Hospitals &amp; Health Care Centers</name>
+		<open>1</open>
+		<Placemark>
+			<name>Özel Natomed Hastanesi</name>
+			<description>Tuzluçayır Mah, Natoyolu Caddesı No:49, 06620 Mamak/Ankara</description>
+			<Camera>
+				<longitude>32.9157842360403</longitude>
+				<latitude>39.92222009123665</latitude>
+				<altitude>6096.744506620331</altitude>
+				<heading>-12.89376338806045</heading>
+				<tilt>0.04249963156027692</tilt>
+				<roll>-3.799434542851973</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.90865362790585,39.92005537621954,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cebeci Hastanesi</name>
+			<description>Balkiraz, AÜ Tıp Fakültesi Hst., 06620 Mamak/Ankara</description>
+			<LookAt>
+				<longitude>32.88449470504519</longitude>
+				<latitude>39.93216506845</latitude>
+				<altitude>0</altitude>
+				<heading>-9.12773561179298</heading>
+				<tilt>11.69560836099026</tilt>
+				<range>1286.690374085273</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.88533289722357,39.93410555555555,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

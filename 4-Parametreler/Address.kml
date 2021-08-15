@@ -1,0 +1,741 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Address.kml</name>
+	<Style id="sh_homegardenbusiness1">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_homegardenbusiness0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_homegardenbusiness1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_homegardenbusiness1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_homegardenbusiness1">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>Address</name>
+		<open>1</open>
+		<Placemark>
+			<name>konut1_170</name>
+			<visibility>0</visibility>
+			<description>tıp fakültesi cad no 120</description>
+			<LookAt>
+				<longitude>32.89921699817485</longitude>
+				<latitude>39.92476299794856</latitude>
+				<altitude>0</altitude>
+				<heading>6.638708175525168e-10</heading>
+				<tilt>0</tilt>
+				<range>1000.19173199445</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_homegardenbusiness0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.8991848106536,39.92497690225598,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>konut2_350</name>
+			<visibility>0</visibility>
+			<description>tıp fakültesi caddesi no 163</description>
+			<LookAt>
+				<longitude>32.89955863034766</longitude>
+				<latitude>39.92540628561791</latitude>
+				<altitude>0</altitude>
+				<heading>0.0001152654494626281</heading>
+				<tilt>22.07092426764292</tilt>
+				<range>302.2653568824997</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_homegardenbusiness0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.90145638927109,39.92531705410336,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="1.2.1">
+			<name>Tıp Fakültesi Cd. No:163 (350)</name>
+			<visibility>0</visibility>
+			<address>Kartaltepe, Tıp Fakültesi Cd. No:163, 06620 Mamak/Ankara</address>
+			<snippet>Kartaltepe, Tıp Fakültesi Cd. No:163, 06620 Mamak/Ankara</snippet>
+			<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=39.9251759&lng=32.899428&fid=0x14d351dfe55e6f9f:0x2163977dd7f370b&hl=tr&gl=tr&client=earth-client&cv=7.3.3.7786&useragent=GoogleEarth/7.3.3.7786(Windows;Microsoft Windows (6.2.9200.0);tr;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+			<styleUrl>#msn_homegardenbusiness0</styleUrl>
+			<ExtendedData>
+				<Data name="placepageUri">
+					<value>https://www.google.com/earth/rpc/entity?lat=39.9251759&amp;lng=32.899428&amp;fid=0x14d351dfe55e6f9f:0x2163977dd7f370b&amp;hl=tr&amp;gl=tr&amp;client=earth-client&amp;cv=7.3.3.7786&amp;useragent=GoogleEarth/7.3.3.7786(Windows;Microsoft Windows (6.2.9200.0);tr;kml:2.2;client:Pro;type:default)</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>32.899428,39.9251759,0</coordinates>
+				</Point>
+				<LinearRing>
+					<coordinates>
+						32.89607260151729,39.92265935113797,0 32.89607260151729,39.92769244886203,0 32.90278339848271,39.92769244886203,0 32.90278339848271,39.92265935113797,0 32.89607260151729,39.92265935113797,0 
+					</coordinates>
+				</LinearRing>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="1.2.1">
+			<name>763. Cd. No:5 (495)</name>
+			<visibility>0</visibility>
+			<address>Ege, 763. Cd. No:5, 06270 Mamak/Ankara</address>
+			<snippet>Ege, 763. Cd. No:5, 06270 Mamak/Ankara</snippet>
+			<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=39.902252600000004&lng=32.9169048&fid=0x14d351cb48167153:0xf242190b76fffa9b&hl=tr&gl=tr&client=earth-client&cv=7.3.3.7786&useragent=GoogleEarth/7.3.3.7786(Windows;Microsoft Windows (6.2.9200.0);tr;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+			<styleUrl>#msn_homegardenbusiness0</styleUrl>
+			<ExtendedData>
+				<Data name="placepageUri">
+					<value>https://www.google.com/earth/rpc/entity?lat=39.902252600000004&amp;lng=32.9169048&amp;fid=0x14d351cb48167153:0xf242190b76fffa9b&amp;hl=tr&amp;gl=tr&amp;client=earth-client&amp;cv=7.3.3.7786&amp;useragent=GoogleEarth/7.3.3.7786(Windows;Microsoft Windows (6.2.9200.0);tr;kml:2.2;client:Pro;type:default)</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>32.9169048,39.9022526,0</coordinates>
+				</Point>
+				<LinearRing>
+					<coordinates>
+						32.91354827198242,39.89973520398681,0 32.91354827198242,39.90476999601318,0 32.92026132801757,39.90476999601318,0 32.92026132801757,39.89973520398681,0 32.91354827198242,39.89973520398681,0 
+					</coordinates>
+				</LinearRing>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="1.2.1">
+			<name>313. Sk. No:5 (170)</name>
+			<visibility>0</visibility>
+			<address>Kartaltepe, 313. Sk. No:5, 06620 Mamak/Ankara</address>
+			<snippet>Kartaltepe, 313. Sk. No:5, 06620 Mamak/Ankara</snippet>
+			<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=39.92561389999999&lng=32.898799499999996&fid=0x14d351dff9354a79:0x707c1b7a6e29e3d4&hl=tr&gl=tr&client=earth-client&cv=7.3.3.7786&useragent=GoogleEarth/7.3.3.7786(Windows;Microsoft Windows (6.2.9200.0);tr;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+			<styleUrl>#msn_homegardenbusiness0</styleUrl>
+			<ExtendedData>
+				<Data name="placepageUri">
+					<value>https://www.google.com/earth/rpc/entity?lat=39.92561389999999&amp;lng=32.898799499999996&amp;fid=0x14d351dff9354a79:0x707c1b7a6e29e3d4&amp;hl=tr&amp;gl=tr&amp;client=earth-client&amp;cv=7.3.3.7786&amp;useragent=GoogleEarth/7.3.3.7786(Windows;Microsoft Windows (6.2.9200.0);tr;kml:2.2;client:Pro;type:default)</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>32.8987995,39.92561389999999,0</coordinates>
+				</Point>
+				<LinearRing>
+					<coordinates>
+						32.89544411248364,39.92309735936274,0 32.89544411248364,39.92813044063725,0 32.90215488751635,39.92813044063725,0 32.90215488751635,39.92309735936274,0 32.89544411248364,39.92309735936274,0 
+					</coordinates>
+				</LinearRing>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="1.2.1">
+			<name>Süleyman Ayten Cd. No:63 (95)</name>
+			<visibility>0</visibility>
+			<address>Tuzluçayır, Süleyman Ayten Cd. No:63, 06620 Mamak/Ankara</address>
+			<snippet>Tuzluçayır, Süleyman Ayten Cd. No:63, 06620 Mamak/Ankara</snippet>
+			<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=39.924259&lng=32.903611&fid=0x14d351de1cd35735:0x2a115ba241edeada&hl=tr&gl=tr&client=earth-client&cv=7.3.3.7786&useragent=GoogleEarth/7.3.3.7786(Windows;Microsoft Windows (6.2.9200.0);tr;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+			<styleUrl>#msn_homegardenbusiness0</styleUrl>
+			<ExtendedData>
+				<Data name="placepageUri">
+					<value>https://www.google.com/earth/rpc/entity?lat=39.924259&amp;lng=32.903611&amp;fid=0x14d351de1cd35735:0x2a115ba241edeada&amp;hl=tr&amp;gl=tr&amp;client=earth-client&amp;cv=7.3.3.7786&amp;useragent=GoogleEarth/7.3.3.7786(Windows;Microsoft Windows (6.2.9200.0);tr;kml:2.2;client:Pro;type:default)</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>32.903611,39.924259,0</coordinates>
+				</Point>
+				<LinearRing>
+					<coordinates>
+						32.9002555466855,39.92174241001413,0 32.9002555466855,39.92677558998587,0 32.9069664533145,39.92677558998587,0 32.9069664533145,39.92174241001413,0 32.9002555466855,39.92174241001413,0 
+					</coordinates>
+				</LinearRing>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="1.2.1">
+			<name>Abidin Aktaş Sk. No:8 (105)</name>
+			<visibility>0</visibility>
+			<address>Tuzluçayır, Abidin Aktaş Sk. No:8, 06620 Mamak/Ankara</address>
+			<snippet>Tuzluçayır, Abidin Aktaş Sk. No:8, 06620 Mamak/Ankara</snippet>
+			<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=39.924&lng=32.9042336&fid=0x14d351ddfce37c1d:0xc7e82466b3e8ff45&hl=tr&gl=tr&client=earth-client&cv=7.3.3.7786&useragent=GoogleEarth/7.3.3.7786(Windows;Microsoft Windows (6.2.9200.0);tr;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+			<styleUrl>#msn_homegardenbusiness0</styleUrl>
+			<ExtendedData>
+				<Data name="placepageUri">
+					<value>https://www.google.com/earth/rpc/entity?lat=39.924&amp;lng=32.9042336&amp;fid=0x14d351ddfce37c1d:0xc7e82466b3e8ff45&amp;hl=tr&amp;gl=tr&amp;client=earth-client&amp;cv=7.3.3.7786&amp;useragent=GoogleEarth/7.3.3.7786(Windows;Microsoft Windows (6.2.9200.0);tr;kml:2.2;client:Pro;type:default)</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>32.9042336,39.924,0</coordinates>
+				</Point>
+				<LinearRing>
+					<coordinates>
+						32.90087813571914,39.92148340178936,0 32.90087813571914,39.92651659821064,0 32.90758906428086,39.92651659821064,0 32.90758906428086,39.92148340178936,0 32.90087813571914,39.92148340178936,0 
+					</coordinates>
+				</LinearRing>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="1.2.1">
+			<name>327. Sk. No:5 (85)</name>
+			<visibility>0</visibility>
+			<address>Peyami Sefa, 327. Sk. No:5, 06630 Mamak/Ankara</address>
+			<snippet>Peyami Sefa, 327. Sk. No:5, 06630 Mamak/Ankara</snippet>
+			<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=39.923266&lng=32.901631&fid=0x14d351de52927927:0x3072f9c115909725&hl=tr&gl=tr&client=earth-client&cv=7.3.3.7786&useragent=GoogleEarth/7.3.3.7786(Windows;Microsoft Windows (6.2.9200.0);tr;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+			<styleUrl>#msn_homegardenbusiness0</styleUrl>
+			<ExtendedData>
+				<Data name="placepageUri">
+					<value>https://www.google.com/earth/rpc/entity?lat=39.923266&amp;lng=32.901631&amp;fid=0x14d351de52927927:0x3072f9c115909725&amp;hl=tr&amp;gl=tr&amp;client=earth-client&amp;cv=7.3.3.7786&amp;useragent=GoogleEarth/7.3.3.7786(Windows;Microsoft Windows (6.2.9200.0);tr;kml:2.2;client:Pro;type:default)</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>32.901631,39.923266,0</coordinates>
+				</Point>
+				<LinearRing>
+					<coordinates>
+						32.89827550282007,39.92074937711505,0 32.89827550282007,39.92578262288495,0 32.90498649717993,39.92578262288495,0 32.90498649717993,39.92074937711505,0 32.89827550282007,39.92074937711505,0 
+					</coordinates>
+				</LinearRing>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="1.2.1">
+			<name>668. Sk. No:5 (210)</name>
+			<visibility>0</visibility>
+			<address>Şahintepe, 668. Sk. No:5, 06470 Mamak/Ankara</address>
+			<snippet>Şahintepe, 668. Sk. No:5, 06470 Mamak/Ankara</snippet>
+			<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=39.9167055&lng=32.9131098&fid=0x14d351c47f35e8c7:0x47ae780e68040ac0&hl=tr&gl=tr&client=earth-client&cv=7.3.3.7786&useragent=GoogleEarth/7.3.3.7786(Windows;Microsoft Windows (6.2.9200.0);tr;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+			<styleUrl>#msn_homegardenbusiness0</styleUrl>
+			<ExtendedData>
+				<Data name="placepageUri">
+					<value>https://www.google.com/earth/rpc/entity?lat=39.9167055&amp;lng=32.9131098&amp;fid=0x14d351c47f35e8c7:0x47ae780e68040ac0&amp;hl=tr&amp;gl=tr&amp;client=earth-client&amp;cv=7.3.3.7786&amp;useragent=GoogleEarth/7.3.3.7786(Windows;Microsoft Windows (6.2.9200.0);tr;kml:2.2;client:Pro;type:default)</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>32.9131098,39.9167055,0</coordinates>
+				</Point>
+				<LinearRing>
+					<coordinates>
+						32.90975398479569,39.91418863859676,0 32.90975398479569,39.91922236140324,0 32.91646561520431,39.91922236140324,0 32.91646561520431,39.91418863859676,0 32.90975398479569,39.91418863859676,0 
+					</coordinates>
+				</LinearRing>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="1.2.1">
+			<name>Abidin Aktaş Sk. No:12 (190)</name>
+			<visibility>0</visibility>
+			<address>Tuzluçayır, Abidin Aktaş Sk. No:12, 06620 Mamak/Ankara</address>
+			<snippet>Tuzluçayır, Abidin Aktaş Sk. No:12, 06620 Mamak/Ankara</snippet>
+			<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=39.92337200000001&lng=32.904778&fid=0x14d351dde4eddd61:0xb40d367d6e2868a0&hl=tr&gl=tr&client=earth-client&cv=7.3.3.7786&useragent=GoogleEarth/7.3.3.7786(Windows;Microsoft Windows (6.2.9200.0);tr;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+			<styleUrl>#msn_homegardenbusiness0</styleUrl>
+			<ExtendedData>
+				<Data name="placepageUri">
+					<value>https://www.google.com/earth/rpc/entity?lat=39.92337200000001&amp;lng=32.904778&amp;fid=0x14d351dde4eddd61:0xb40d367d6e2868a0&amp;hl=tr&amp;gl=tr&amp;client=earth-client&amp;cv=7.3.3.7786&amp;useragent=GoogleEarth/7.3.3.7786(Windows;Microsoft Windows (6.2.9200.0);tr;kml:2.2;client:Pro;type:default)</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>32.904778,39.923372,0</coordinates>
+				</Point>
+				<LinearRing>
+					<coordinates>
+						32.90142250282007,39.92085537711505,0 32.90142250282007,39.92588862288495,0 32.90813349717993,39.92588862288495,0 32.90813349717993,39.92085537711505,0 32.90142250282007,39.92085537711505,0 
+					</coordinates>
+				</LinearRing>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="1.2.1">
+			<name>Süleyman Ayten Cd. No:60 (115)</name>
+			<visibility>0</visibility>
+			<address>Tuzluçayır, Süleyman Ayten Cd. No:60, 06620 Mamak/Ankara</address>
+			<snippet>Tuzluçayır, Süleyman Ayten Cd. No:60, 06620 Mamak/Ankara</snippet>
+			<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=39.9245729&lng=32.9039103&fid=0x14d351e0ae2b4395:0xf24b504a6408458b&hl=tr&gl=tr&client=earth-client&cv=7.3.3.7786&useragent=GoogleEarth/7.3.3.7786(Windows;Microsoft Windows (6.2.9200.0);tr;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+			<styleUrl>#msn_homegardenbusiness0</styleUrl>
+			<ExtendedData>
+				<Data name="placepageUri">
+					<value>https://www.google.com/earth/rpc/entity?lat=39.9245729&amp;lng=32.9039103&amp;fid=0x14d351e0ae2b4395:0xf24b504a6408458b&amp;hl=tr&amp;gl=tr&amp;client=earth-client&amp;cv=7.3.3.7786&amp;useragent=GoogleEarth/7.3.3.7786(Windows;Microsoft Windows (6.2.9200.0);tr;kml:2.2;client:Pro;type:default)</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>32.9039103,39.9245729,0</coordinates>
+				</Point>
+				<LinearRing>
+					<coordinates>
+						32.90055486861822,39.92205632646367,0 32.90055486861822,39.92708947353633,0 32.90726573138178,39.92708947353633,0 32.90726573138178,39.92205632646367,0 32.90055486861822,39.92205632646367,0 
+					</coordinates>
+				</LinearRing>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="1.2.1">
+			<name>598. Sk. No:24 (190)</name>
+			<visibility>0</visibility>
+			<address>Tuzluçayır, 598. Sk. No:24, 06620 Mamak/Ankara</address>
+			<snippet>Tuzluçayır, 598. Sk. No:24, 06620 Mamak/Ankara</snippet>
+			<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=39.9203823&lng=32.9092287&fid=0x14d351dd27d79ffb:0x26ed6ea859641f4&hl=tr&gl=tr&client=earth-client&cv=7.3.3.7786&useragent=GoogleEarth/7.3.3.7786(Windows;Microsoft Windows (6.2.9200.0);tr;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+			<styleUrl>#msn_homegardenbusiness0</styleUrl>
+			<ExtendedData>
+				<Data name="placepageUri">
+					<value>https://www.google.com/earth/rpc/entity?lat=39.9203823&amp;lng=32.9092287&amp;fid=0x14d351dd27d79ffb:0x26ed6ea859641f4&amp;hl=tr&amp;gl=tr&amp;client=earth-client&amp;cv=7.3.3.7786&amp;useragent=GoogleEarth/7.3.3.7786(Windows;Microsoft Windows (6.2.9200.0);tr;kml:2.2;client:Pro;type:default)</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>32.9092287,39.9203823,0</coordinates>
+				</Point>
+				<LinearRing>
+					<coordinates>
+						32.90587306025741,39.91786557019307,0 32.90587306025741,39.92289902980693,0 32.91258433974259,39.92289902980693,0 32.91258433974259,39.91786557019307,0 32.90587306025741,39.91786557019307,0 
+					</coordinates>
+				</LinearRing>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="1.2.1">
+			<name>596. Sk. No:19 (195)</name>
+			<visibility>0</visibility>
+			<address>Tuzluçayır, 596. Sk. No:19, 06620 Mamak/Ankara</address>
+			<snippet>Tuzluçayır, 596. Sk. No:19, 06620 Mamak/Ankara</snippet>
+			<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=39.920311999999996&lng=32.908657&fid=0x14d351dcde43dc07:0x7ebb7709f07b5be6&hl=tr&gl=tr&client=earth-client&cv=7.3.3.7786&useragent=GoogleEarth/7.3.3.7786(Windows;Microsoft Windows (6.2.9200.0);tr;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+			<styleUrl>#msn_homegardenbusiness0</styleUrl>
+			<ExtendedData>
+				<Data name="placepageUri">
+					<value>https://www.google.com/earth/rpc/entity?lat=39.920311999999996&amp;lng=32.908657&amp;fid=0x14d351dcde43dc07:0x7ebb7709f07b5be6&amp;hl=tr&amp;gl=tr&amp;client=earth-client&amp;cv=7.3.3.7786&amp;useragent=GoogleEarth/7.3.3.7786(Windows;Microsoft Windows (6.2.9200.0);tr;kml:2.2;client:Pro;type:default)</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>32.908657,39.920312,0</coordinates>
+				</Point>
+				<LinearRing>
+					<coordinates>
+						32.90530136025741,39.91779527019306,0 32.90530136025741,39.92282872980693,0 32.91201263974258,39.92282872980693,0 32.91201263974258,39.91779527019306,0 32.90530136025741,39.91779527019306,0 
+					</coordinates>
+				</LinearRing>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="1.2.1">
+			<name>800. Sk. No:24</name>
+			<visibility>0</visibility>
+			<address>Ege, 800. Sk. No:24, 06270 Mamak/Ankara</address>
+			<snippet>Ege, 800. Sk. No:24, 06270 Mamak/Ankara</snippet>
+			<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=39.8970048&lng=32.9188939&fid=0x14d35035d1012d55:0xe27de09296dde9e1&hl=tr&gl=tr&client=earth-client&cv=7.3.3.7786&useragent=GoogleEarth/7.3.3.7786(Windows;Microsoft Windows (6.2.9200.0);tr;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<Data name="placepageUri">
+					<value>https://www.google.com/earth/rpc/entity?lat=39.8970048&amp;lng=32.9188939&amp;fid=0x14d35035d1012d55:0xe27de09296dde9e1&amp;hl=tr&amp;gl=tr&amp;client=earth-client&amp;cv=7.3.3.7786&amp;useragent=GoogleEarth/7.3.3.7786(Windows;Microsoft Windows (6.2.9200.0);tr;kml:2.2;client:Pro;type:default)</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>32.9188939,39.8970048,0</coordinates>
+				</Point>
+				<LinearRing>
+					<coordinates>
+						32.91553711975619,39.89448721481714,0 32.91553711975619,39.89952238518286,0 32.92225068024381,39.89952238518286,0 32.92225068024381,39.89448721481714,0 32.91553711975619,39.89448721481714,0 
+					</coordinates>
+				</LinearRing>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="1.2.1">
+			<name>800. Sk. No:13</name>
+			<visibility>0</visibility>
+			<address>Ege, 800. Sk. No:13, 06270 Mamak/Ankara</address>
+			<snippet>Ege, 800. Sk. No:13, 06270 Mamak/Ankara</snippet>
+			<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=39.897638&lng=32.919025999999995&fid=0x14d35035c8189ccb:0x9faffdfeb982619c&hl=tr&gl=tr&client=earth-client&cv=7.3.3.7786&useragent=GoogleEarth/7.3.3.7786(Windows;Microsoft Windows (6.2.9200.0);tr;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<Data name="placepageUri">
+					<value>https://www.google.com/earth/rpc/entity?lat=39.897638&amp;lng=32.919025999999995&amp;fid=0x14d35035c8189ccb:0x9faffdfeb982619c&amp;hl=tr&amp;gl=tr&amp;client=earth-client&amp;cv=7.3.3.7786&amp;useragent=GoogleEarth/7.3.3.7786(Windows;Microsoft Windows (6.2.9200.0);tr;kml:2.2;client:Pro;type:default)</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>32.919026,39.897638,0</coordinates>
+				</Point>
+				<LinearRing>
+					<coordinates>
+						32.91566925265526,39.89512043949144,0 32.91566925265526,39.90015556050856,0 32.92238274734473,39.90015556050856,0 32.92238274734473,39.89512043949144,0 32.91566925265526,39.89512043949144,0 
+					</coordinates>
+				</LinearRing>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="1.2.1">
+			<name>859. Sk. No:6</name>
+			<visibility>0</visibility>
+			<address>Cengizhan, 859. Sk. No:6, 06480 Mamak/Ankara</address>
+			<snippet>Cengizhan, 859. Sk. No:6, 06480 Mamak/Ankara</snippet>
+			<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=39.90251&lng=32.919801&fid=0x14d351caed343561:0x649bb9988990ffa8&hl=tr&gl=tr&client=earth-client&cv=7.3.3.7786&useragent=GoogleEarth/7.3.3.7786(Windows;Microsoft Windows (6.2.9200.0);tr;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<Data name="placepageUri">
+					<value>https://www.google.com/earth/rpc/entity?lat=39.90251&amp;lng=32.919801&amp;fid=0x14d351caed343561:0x649bb9988990ffa8&amp;hl=tr&amp;gl=tr&amp;client=earth-client&amp;cv=7.3.3.7786&amp;useragent=GoogleEarth/7.3.3.7786(Windows;Microsoft Windows (6.2.9200.0);tr;kml:2.2;client:Pro;type:default)</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>32.919801,39.90251,0</coordinates>
+				</Point>
+				<LinearRing>
+					<coordinates>
+						32.91644448294878,39.89999261221158,0 32.91644448294878,39.90502738778842,0 32.92315751705122,39.90502738778842,0 32.92315751705122,39.89999261221158,0 32.91644448294878,39.89999261221158,0 
+					</coordinates>
+				</LinearRing>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="1.2.1">
+			<name>848. Sk. No:16</name>
+			<visibility>0</visibility>
+			<address>Cengizhan, 848. Sk. No:16, 06480 Mamak/Ankara</address>
+			<snippet>Cengizhan, 848. Sk. No:16, 06480 Mamak/Ankara</snippet>
+			<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=39.900318299999995&lng=32.922514199999995&fid=0x14d3504a9c3b83c3:0x6d7e8f30813c916a&hl=tr&gl=tr&client=earth-client&cv=7.3.3.7786&useragent=GoogleEarth/7.3.3.7786(Windows;Microsoft Windows (6.2.9200.0);tr;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<Data name="placepageUri">
+					<value>https://www.google.com/earth/rpc/entity?lat=39.900318299999995&amp;lng=32.922514199999995&amp;fid=0x14d3504a9c3b83c3:0x6d7e8f30813c916a&amp;hl=tr&amp;gl=tr&amp;client=earth-client&amp;cv=7.3.3.7786&amp;useragent=GoogleEarth/7.3.3.7786(Windows;Microsoft Windows (6.2.9200.0);tr;kml:2.2;client:Pro;type:default)</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>32.9225142,39.9003183,0</coordinates>
+				</Point>
+				<LinearRing>
+					<coordinates>
+						32.9191575732852,39.89780082996389,0 32.9191575732852,39.9028357700361,0 32.92587082671481,39.9028357700361,0 32.92587082671481,39.89780082996389,0 32.9191575732852,39.89780082996389,0 
+					</coordinates>
+				</LinearRing>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="1.2.1">
+			<name>804.cd. No:30</name>
+			<visibility>0</visibility>
+			<address>Ege, 804.cd. No:30, 06270 Mamak/Ankara</address>
+			<snippet>Ege, 804.cd. No:30, 06270 Mamak/Ankara</snippet>
+			<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=39.90229359999999&lng=32.91752379999999&fid=0x14d351cb3a435d2d:0x21fdd6ce8de5033d&hl=tr&gl=tr&client=earth-client&cv=7.3.3.7786&useragent=GoogleEarth/7.3.3.7786(Windows;Microsoft Windows (6.2.9200.0);tr;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<Data name="placepageUri">
+					<value>https://www.google.com/earth/rpc/entity?lat=39.90229359999999&amp;lng=32.91752379999999&amp;fid=0x14d351cb3a435d2d:0x21fdd6ce8de5033d&amp;hl=tr&amp;gl=tr&amp;client=earth-client&amp;cv=7.3.3.7786&amp;useragent=GoogleEarth/7.3.3.7786(Windows;Microsoft Windows (6.2.9200.0);tr;kml:2.2;client:Pro;type:default)</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>32.9175238,39.9022936,0</coordinates>
+				</Point>
+				<LinearRing>
+					<coordinates>
+						32.91416727198242,39.89977620398682,0 32.91416727198242,39.90481099601318,0 32.92088032801757,39.90481099601318,0 32.92088032801757,39.89977620398682,0 32.91416727198242,39.89977620398682,0 
+					</coordinates>
+				</LinearRing>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>1</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<longitude>32.92191654366916</longitude>
+				<latitude>39.89762802192116</latitude>
+				<altitude>0</altitude>
+				<heading>-1.266061594112039</heading>
+				<tilt>25.26847445439781</tilt>
+				<range>242.634877901438</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.92110552468721,39.89780695943398,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<longitude>32.91011615525849</longitude>
+				<latitude>39.9174033821504</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0007185257935546829</heading>
+				<tilt>29.19996757416799</tilt>
+				<range>142.6397216844693</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.90986397465013,39.917318012883,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<longitude>32.89716729741095</longitude>
+				<latitude>39.92563118725444</latitude>
+				<altitude>0</altitude>
+				<heading>-1.281595862415924</heading>
+				<tilt>30.00099027941243</tilt>
+				<range>220.4256179443748</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.89666123477775,39.92550024788299,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>4</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<longitude>32.88653823863024</longitude>
+				<latitude>39.93011871266472</latitude>
+				<altitude>0</altitude>
+				<heading>-1.288358441197155</heading>
+				<tilt>29.08165938443975</tilt>
+				<range>217.7467600597657</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.88631973704349,39.93024705723755,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3/8</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<longitude>32.89969065477299</longitude>
+				<latitude>39.92328720447007</latitude>
+				<altitude>0</altitude>
+				<heading>0.0005126751764288618</heading>
+				<tilt>19.5437620917639</tilt>
+				<range>339.7662852930174</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.8996491315354,39.92287100193364,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>33/2</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<longitude>32.90562101052055</longitude>
+				<latitude>39.92161003218265</latitude>
+				<altitude>0</altitude>
+				<heading>3.872984424667365e-06</heading>
+				<tilt>27.94372427698993</tilt>
+				<range>123.4763643446566</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.90555861147691,39.9215786375369,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>14/7</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<longitude>32.90822184556637</longitude>
+				<latitude>39.92098108353091</latitude>
+				<altitude>0</altitude>
+				<heading>8.000479175200169e-05</heading>
+				<tilt>25.93013573503331</tilt>
+				<range>200.5309619118033</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.90799635213439,39.92076333653572,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>47/9</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<longitude>32.91398938812468</longitude>
+				<latitude>39.91639846229427</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0008250051833391099</heading>
+				<tilt>30.00158308293567</tilt>
+				<range>352.3390997676913</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.91424747368303,39.9162931109426,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>35/4</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<longitude>32.90566790876314</longitude>
+				<latitude>39.92137215510295</latitude>
+				<altitude>0</altitude>
+				<heading>0.0003419208007305508</heading>
+				<tilt>26.6756961608423</tilt>
+				<range>246.9529250652115</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.905717791223,39.9211949492886,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>44/1</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<longitude>32.90545896214121</longitude>
+				<latitude>39.91801197498439</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0002032045348671417</heading>
+				<tilt>30.00185862307497</tilt>
+				<range>413.7793241876431</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.9041920824012,39.91771509236276,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>20/13</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<longitude>32.90760362655298</longitude>
+				<latitude>39.9219029387367</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0004753308745068529</heading>
+				<tilt>21.36616172538659</tilt>
+				<range>486.1187210326582</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.90864763676837,39.92262681391635,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>13/51</name>
+			<LookAt>
+				<longitude>32.90950360605395</longitude>
+				<latitude>39.92076826235631</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0002932189647643348</heading>
+				<tilt>24.37422948709579</tilt>
+				<range>334.6470850632444</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.9097512698854,39.92060946085177,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>12/1</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<longitude>32.90364333586211</longitude>
+				<latitude>39.91991064321909</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0004496842275940614</heading>
+				<tilt>22.63201485721237</tilt>
+				<range>320.1890933990354</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.90305777666896,39.91986906861929,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

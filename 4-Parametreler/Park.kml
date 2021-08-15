@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Park.kml</name>
+	<StyleMap id="msn_parks">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_parks</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_parks</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_parks">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_parks">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>Park</name>
+		<Placemark>
+			<name>Gaziler Parkı</name>
+			<description>Balkiraz, Gaziler Sk. No:1, 06620 Mamak/Ankara</description>
+			<LookAt>
+				<longitude>32.90880216344009</longitude>
+				<latitude>39.91218140609198</latitude>
+				<altitude>0</altitude>
+				<heading>0.002330860230855276</heading>
+				<tilt>5.787477927382879</tilt>
+				<range>1879.612240073594</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.88596944444444,39.93195381637187,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Aşık Veysel Parkı</name>
+			<description>Aşık Veysel, Bağlarbaşı Cd., 06620 Mamak/Ankara</description>
+			<LookAt>
+				<longitude>32.88807109146898</longitude>
+				<latitude>39.93012022672958</latitude>
+				<altitude>0</altitude>
+				<heading>-0.01135052309896051</heading>
+				<tilt>10.42813277824606</tilt>
+				<range>1986.307386597438</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.89628512180126,39.92560151087163,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Mamak Belediyesi Nato Yolu Koşu Ve Dinlenme Alanı</name>
+			<description>General Zeki Doğan, Natoyolu Caddesı No:80, 06630 Mamak/Ankara</description>
+			<LookAt>
+				<longitude>32.89102720037435</longitude>
+				<latitude>39.92467282686812</latitude>
+				<altitude>0</altitude>
+				<heading>-0.01015709380198935</heading>
+				<tilt>18.17819125758551</tilt>
+				<range>995.802855424866</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.91746127539636,39.90982566763245,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>General Zeki Doğan Mahallesi Koşuyolu Parkı</name>
+			<description>General Zeki Doğan, 557. Sk. No:10, 06630 Mamak/Ankara</description>
+			<LookAt>
+				<longitude>32.91727711188432</longitude>
+				<latitude>39.91082205315509</latitude>
+				<altitude>0</altitude>
+				<heading>0.005381780802936264</heading>
+				<tilt>30.87073127780196</tilt>
+				<range>759.132336491608</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.91196001161477,39.90918817130603,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>General Zeki Doğan Parkı</name>
+			<description>General Zeki Doğan, 06630 Mamak/Ankara</description>
+			<LookAt>
+				<longitude>32.91785866865786</longitude>
+				<latitude>39.90992762270888</latitude>
+				<altitude>0</altitude>
+				<heading>0.005120997288068333</heading>
+				<tilt>36.57075123493856</tilt>
+				<range>940.7825327054828</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.91418888888889,39.90836488774022,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Şehit Murat İltekin Parkı</name>
+			<description>Cengizhan, 846. Cd. No:154, 06480 Mamak/Ankara</description>
+			<LookAt>
+				<longitude>32.91205249707509</longitude>
+				<latitude>39.92019894060675</latitude>
+				<altitude>0</altitude>
+				<heading>0.001292624132902686</heading>
+				<tilt>35.97234090671841</tilt>
+				<range>5125.364524936046</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.9237877056536,39.90024207969534,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Kınık Parkı</name>
+			<description>Merkez, Mamak Merkez, Mamak, Ankara</description>
+			<LookAt>
+				<longitude>32.92282393825789</longitude>
+				<latitude>39.9064086248262</latitude>
+				<altitude>0</altitude>
+				<heading>0.008148196182890803</heading>
+				<tilt>35.5791537964291</tilt>
+				<range>5853.684502072402</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.92360277126654,39.90001568631795,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Park</name>
+			<description>Cengizhan, 852. Sk., 06480 Mamak/Ankara</description>
+			<LookAt>
+				<longitude>32.92282393825789</longitude>
+				<latitude>39.9064086248262</latitude>
+				<altitude>0</altitude>
+				<heading>0.008148196182890803</heading>
+				<tilt>35.5791537964291</tilt>
+				<range>5853.684502072402</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.92143204519927,39.90130207880674,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Şht. Niyazi Eker Parkı</name>
+			<description>Cengizhan, 841. Sk. No:9, 06480 Mamak/Ankara</description>
+			<LookAt>
+				<longitude>32.92282393825789</longitude>
+				<latitude>39.9064086248262</latitude>
+				<altitude>0</altitude>
+				<heading>0.008148196182890803</heading>
+				<tilt>35.5791537964291</tilt>
+				<range>5853.684502072402</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.92499887184818,39.90194596792156,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Mamak Belediyesi Fahri Korutürk Kapalı Pazar ve Spor Alanı</name>
+			<description>Fahri Korutürk, Ozan Rehberi Cd. No:5, 06480 Mamak/Ankara</description>
+			<LookAt>
+				<longitude>32.92282393825789</longitude>
+				<latitude>39.9064086248262</latitude>
+				<altitude>0</altitude>
+				<heading>0.008148196182890803</heading>
+				<tilt>35.5791537964291</tilt>
+				<range>5853.684502072402</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.91867934537582,39.90582713769817,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Şehit Polis Murat Yatarkalkmaz Parkı</name>
+			<description>Fahri Korutürk, Ozan Rehberi Cd., 06480 Mamak/Ankara</description>
+			<LookAt>
+				<longitude>32.91615797165808</longitude>
+				<latitude>39.90991841599603</latitude>
+				<altitude>0</altitude>
+				<heading>0.003733387639434908</heading>
+				<tilt>34.55859806799133</tilt>
+				<range>4304.544167525655</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.91976260333897,39.90650857134563,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Fahri Korutürk Parkı</name>
+			<description>Fahri Korutürk, Ozan Rehberi Cd. No:29, 06480 Mamak/Ankara</description>
+			<LookAt>
+				<longitude>32.91615796963647</longitude>
+				<latitude>39.90991842206686</latitude>
+				<altitude>0</altitude>
+				<heading>0.003733384090422501</heading>
+				<tilt>34.55859807406205</tilt>
+				<range>4304.544635641489</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.92241295642709,39.90744558614168,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Muhtar Arif Celep Parkı</name>
+			<description>Şirintepe, 06480 Mamak/Ankara</description>
+			<LookAt>
+				<longitude>32.91615796963647</longitude>
+				<latitude>39.90991842206686</latitude>
+				<altitude>0</altitude>
+				<heading>0.003733384090422501</heading>
+				<tilt>34.55859807406205</tilt>
+				<range>4304.544635641489</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.92131411737487,39.9120992714455,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hayat Parkı</name>
+			<description>Şahintepe, Park İçi Yolu, 06470 Mamak/Ankara</description>
+			<LookAt>
+				<longitude>32.91615796963647</longitude>
+				<latitude>39.90991842206686</latitude>
+				<altitude>0</altitude>
+				<heading>0.003733384090422501</heading>
+				<tilt>34.55859807406205</tilt>
+				<range>4304.544635641489</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.9194624265722,39.9126459765234,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Çocuk Parkı</name>
+			<description>Şahintepe, 666. Sk., 06470 Mamak/Ankara</description>
+			<LookAt>
+				<longitude>32.91615796963647</longitude>
+				<latitude>39.90991842206686</latitude>
+				<altitude>0</altitude>
+				<heading>0.003733384090422501</heading>
+				<tilt>34.55859807406205</tilt>
+				<range>4304.544635641489</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.91536013204669,39.91433329522584,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Çocuk Parkı</name>
+			<description>Şahintepe, 679. Sk., 06470 Mamak/Ankara</description>
+			<LookAt>
+				<longitude>32.9079702421909</longitude>
+				<latitude>39.91245916995036</latitude>
+				<altitude>0</altitude>
+				<heading>-0.001945986809654067</heading>
+				<tilt>32.847633774086</tilt>
+				<range>2538.374377670603</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.91764444444444,39.91583223477678,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Güneş Parkı</name>
+			<description>Şahintepe, 683. Cad., 06470 Mamak/Ankara</description>
+			<LookAt>
+				<longitude>32.91280431304481</longitude>
+				<latitude>39.91431427660871</latitude>
+				<altitude>0</altitude>
+				<heading>0.0006093503355019035</heading>
+				<tilt>31.24151045577759</tilt>
+				<range>1666.055361925911</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.91756944444444,39.9160176763496,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hacı Bektaş Veli Parkı</name>
+			<description>Şahintepe, 650. Sk. No:1, 06470 Mamak/Ankara</description>
+			<LookAt>
+				<longitude>32.91280431304481</longitude>
+				<latitude>39.91431427660871</latitude>
+				<altitude>0</altitude>
+				<heading>0.0006093503355019035</heading>
+				<tilt>31.24151045577759</tilt>
+				<range>1666.055361925911</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.91209882588253,39.91720000212973,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Güvendik Parkı</name>
+			<description>Şahintepe, 650. Sk., 06470 Mamak/Ankara</description>
+			<LookAt>
+				<longitude>32.90996820340698</longitude>
+				<latitude>39.916239512918</latitude>
+				<altitude>0</altitude>
+				<heading>-0.002062604073849897</heading>
+				<tilt>28.50741770095922</tilt>
+				<range>2578.960573395752</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.91328611111111,39.91827246498445,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Şahintepe Parkı</name>
+			<description>Şahintepe, 642. Sk. No:4, 06470 Mamak/Ankara</description>
+			<LookAt>
+				<longitude>32.90996820340698</longitude>
+				<latitude>39.916239512918</latitude>
+				<altitude>0</altitude>
+				<heading>-0.002062604073849897</heading>
+				<tilt>28.50741770095922</tilt>
+				<range>2578.960573395752</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.9105717681142,39.92069575340312,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Feyzullah Çınar Parkı</name>
+			<description>Tuzluçayır, Abidin Aktaş Sk. No:11, 06620 Mamak/Ankara</description>
+			<LookAt>
+				<longitude>32.90531853837846</longitude>
+				<latitude>39.91742893260898</latitude>
+				<altitude>0</altitude>
+				<heading>-0.005720266795479054</heading>
+				<tilt>27.1712230005445</tilt>
+				<range>1904.913545965476</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.90481522112273,39.92457387157066,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>77. Yıl Cumhuriyet Parkı</name>
+			<description>Saimekadın, Asım Gündüz Cd. No:51, 06620 Mamak/Ankara</description>
+			<LookAt>
+				<longitude>32.90531853837846</longitude>
+				<latitude>39.91742893260898</latitude>
+				<altitude>0</altitude>
+				<heading>-0.005720266795479054</heading>
+				<tilt>27.1712230005445</tilt>
+				<range>1904.913545965476</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.89567848091781,39.93158736980197,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Şehit Er Cengiz Aydın Parkı</name>
+			<description>Saimekadın, Bildik Sk. No:11, 06620 Mamak/Ankara</description>
+			<LookAt>
+				<longitude>32.90170834239521</longitude>
+				<latitude>39.9195918381753</latitude>
+				<altitude>0</altitude>
+				<heading>-0.009838396844201984</heading>
+				<tilt>24.59608732789009</tilt>
+				<range>1308.486809762817</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.89247338016348,39.92971432422595,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Dinlenme Parkı</name>
+			<description>Fahri Korutürk, 06480 Mamak/Ankara</description>
+			<LookAt>
+				<longitude>32.90170834239521</longitude>
+				<latitude>39.9195918381753</latitude>
+				<altitude>0</altitude>
+				<heading>-0.009838396844201984</heading>
+				<tilt>24.59608732789009</tilt>
+				<range>1308.486809762817</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_parks</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.92398611111111,39.9085518293376,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
